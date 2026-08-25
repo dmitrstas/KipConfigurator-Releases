@@ -1,0 +1,380 @@
+{
+  "DeviceName": "ИТП11_sw:1.06",
+  "Data": [
+    {
+      "Num": 0,
+      "Name": "Настройки измерительного входа",
+      "Mode": "",
+      "Adr": "",
+      "Type": "",
+      "Value": "",
+      "Scale": "",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": true,
+      "IsNotHeader": false
+    },
+    {
+      "Num": 0,
+      "Name": "Измеренное значение на входе (IN)",
+      "Mode": "R",
+      "Adr": "1",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 1,
+      "Name": "Постоянная времени фильтра (td)",
+      "Mode": "RW",
+      "Adr": "4",
+      "Type": "uint16",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "10",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 2,
+      "Name": "Функция извлечения квадратного корня из значения входа (Sqrt)",
+      "Mode": "RW",
+      "Adr": "5",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Функция извлечения квадратного корня из значения входа (Sqrt)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 3,
+      "Name": "Нижнее значение физического параметра (di.Lo)",
+      "Mode": "RW",
+      "Adr": "6",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 4,
+      "Name": "Верхнее значение физ. параметра (di.Hi)",
+      "Mode": "RW",
+      "Adr": "8",
+      "Type": "real",
+      "Value": "100",
+      "Scale": "0",
+      "Min": "-999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 5,
+      "Name": "Положение десятичной точки (dP.t)",
+      "Mode": "RW",
+      "Adr": "10",
+      "Type": "list",
+      "Value": "1",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Положение десятичной точки (dP.t)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 6,
+      "Name": "Коррекция сдвига измеренного на входе значения (Сorr)",
+      "Mode": "RW",
+      "Adr": "12",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 0,
+      "Name": "Настройка цвета и мигания",
+      "Mode": "",
+      "Adr": "",
+      "Type": "",
+      "Value": "",
+      "Scale": "",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": true,
+      "IsNotHeader": false
+    },
+    {
+      "Num": 7,
+      "Name": "Основной цвет индикации (Col.d)",
+      "Mode": "RW",
+      "Adr": "257",
+      "Type": "list",
+      "Value": "1",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Основной цвет индикации (Col.d)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 8,
+      "Name": "Нижняя уставка мигания (SP.Lo)",
+      "Mode": "RW",
+      "Adr": "258",
+      "Type": "real",
+      "Value": "4",
+      "Scale": "0",
+      "Min": "-999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 9,
+      "Name": " Верхняя уставка мигания (SP.Hi)",
+      "Mode": "RW",
+      "Adr": "260",
+      "Type": "real",
+      "Value": "20",
+      "Scale": "0",
+      "Min": "-999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 10,
+      "Name": " Функция мигания индикатора (d.FnC)",
+      "Mode": "RW",
+      "Adr": "265",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": " Функция мигания индикатора (d.FnC)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 11,
+      "Name": " Инверсия цвета при сигнализации по порогам (d.Col)",
+      "Mode": "RW",
+      "Adr": "266",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": " Инверсия цвета при сигнализации по порогам (d.Col)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 0,
+      "Name": "Сервисное меню",
+      "Mode": "",
+      "Adr": "",
+      "Type": "",
+      "Value": "",
+      "Scale": "",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": true,
+      "IsNotHeader": false
+    },
+    {
+      "Num": 12,
+      "Name": "Версия ПО (Ver.F)",
+      "Mode": "R",
+      "Adr": "4103",
+      "Type": "string",
+      "Value": "1.06",
+      "Scale": "6",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 13,
+      "Name": "Сброс на заводские настройки (d.Rst)",
+      "Mode": "RW",
+      "Adr": "4110",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Сброс на заводские настройки (d.Rst)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 14,
+      "Name": "Название прибора",
+      "Mode": "R",
+      "Adr": "4097",
+      "Type": "string",
+      "Value": "ITP-11",
+      "Scale": "6",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    }
+  ],
+  "ConnectionSettings_PortName": "",
+  "ConnectionSettings_BaudRate": "",
+  "ConnectionSettings_Parity": "",
+  "ConnectionSettings_Address": "",
+  "ConnectionSettings_TcpIp": "",
+  "ConnectionSettings_TcpPort": "",
+  "ConnectionSettings_WriteSingleRegister": false,
+  "ConnectionSettings_ChangeRegisterSequence": false,
+  "ConnectionSettings_GroupRequest": true,
+  "ListDefinitions": [
+    {
+      "Name": "Функция извлечения квадратного корня из значения входа (Sqrt)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "OFF"
+        },
+        {
+          "Value": 1,
+          "Description": "ON"
+        }
+      ]
+    },
+    {
+      "Name": "Положение десятичной точки (dP.t)",
+      "Items": [
+        {
+          "Value": 1,
+          "Description": "1"
+        },
+        {
+          "Value": 0,
+          "Description": "0"
+        },
+        {
+          "Value": 2,
+          "Description": "2"
+        },
+        {
+          "Value": 3,
+          "Description": "3"
+        },
+        {
+          "Value": 4,
+          "Description": "auto"
+        }
+      ]
+    },
+    {
+      "Name": "Основной цвет индикации (Col.d)",
+      "Items": [
+        {
+          "Value": 1,
+          "Description": "red"
+        },
+        {
+          "Value": 0,
+          "Description": "green"
+        }
+      ]
+    },
+    {
+      "Name": " Функция мигания индикатора (d.FnC)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "нет мигания"
+        },
+        {
+          "Value": 1,
+          "Description": "мигание вкл"
+        }
+      ]
+    },
+    {
+      "Name": " Инверсия цвета при сигнализации по порогам (d.Col)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "инверсия выкл"
+        },
+        {
+          "Value": 1,
+          "Description": "U логика"
+        },
+        {
+          "Value": 2,
+          "Description": "П логика"
+        }
+      ]
+    },
+    {
+      "Name": "Сброс на заводские настройки (d.Rst)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "OFF"
+        },
+        {
+          "Value": 1,
+          "Description": "Сброс"
+        }
+      ]
+    }
+  ]
+}

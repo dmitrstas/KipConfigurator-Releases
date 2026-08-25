@@ -1,0 +1,461 @@
+{
+  "DeviceName": "ДТХ_RS_sw:1.0.0",
+  "Data": [
+    {
+      "Num": 0,
+      "Name": "Общие параметры",
+      "Mode": "",
+      "Adr": "",
+      "Type": "",
+      "Value": "",
+      "Scale": "",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": true,
+      "IsNotHeader": false
+    },
+    {
+      "Num": 0,
+      "Name": "Название прибора",
+      "Mode": "R",
+      "Adr": "1000",
+      "Type": "string",
+      "Value": "DTX-RS",
+      "Scale": "6",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 1,
+      "Name": "Версия программного обеспечения",
+      "Mode": "R",
+      "Adr": "1006",
+      "Type": "string",
+      "Value": "1.13",
+      "Scale": "6",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 2,
+      "Name": "Состояние датчика",
+      "Mode": "R",
+      "Adr": "1300",
+      "Type": "uint16",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "255",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 0,
+      "Name": "Управление параметрами",
+      "Mode": "",
+      "Adr": "",
+      "Type": "",
+      "Value": "",
+      "Scale": "",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": true,
+      "IsNotHeader": false
+    },
+    {
+      "Num": 3,
+      "Name": "Сброс сетевых параметров в значения «по умолчанию»",
+      "Mode": "RW",
+      "Adr": "1400",
+      "Type": "uint16",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "1",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 4,
+      "Name": "Записать параметры во flash",
+      "Mode": "RW",
+      "Adr": "1402",
+      "Type": "uint16",
+      "Value": "1",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 0,
+      "Name": "Оперативные параметры",
+      "Mode": "",
+      "Adr": "",
+      "Type": "",
+      "Value": "",
+      "Scale": "",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": true,
+      "IsNotHeader": false
+    },
+    {
+      "Num": 5,
+      "Name": "Значение температуры, °С",
+      "Mode": "R",
+      "Adr": "2200",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-200",
+      "Max": "1300",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 0,
+      "Name": "Параметры измерителя",
+      "Mode": "",
+      "Adr": "",
+      "Type": "",
+      "Value": "",
+      "Scale": "",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": true,
+      "IsNotHeader": false
+    },
+    {
+      "Num": 6,
+      "Name": "Верхний предел измерения, °С",
+      "Mode": "R",
+      "Adr": "5302",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-9999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 7,
+      "Name": "Нижний предел измерения, °С",
+      "Mode": "R",
+      "Adr": "5304",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-9999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 8,
+      "Name": "Верхний предел регистрации, °С",
+      "Mode": "RW",
+      "Adr": "5306",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-213",
+      "Max": "1310",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 9,
+      "Name": "Нижний предел регистрации, °С",
+      "Mode": "RW",
+      "Adr": "5308",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-213",
+      "Max": "1310",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 10,
+      "Name": "Постоянная фильтра, сек",
+      "Mode": "RW",
+      "Adr": "5310",
+      "Type": "uint16",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "10",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 11,
+      "Name": "Тип сенсора",
+      "Mode": "R",
+      "Adr": "5313",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Тип сенсора",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 0,
+      "Name": "Сетевые параметры",
+      "Mode": "",
+      "Adr": "",
+      "Type": "",
+      "Value": "",
+      "Scale": "",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": true,
+      "IsNotHeader": false
+    },
+    {
+      "Num": 12,
+      "Name": "Адрес устройства",
+      "Mode": "RW",
+      "Adr": "5602",
+      "Type": "uint16",
+      "Value": "16",
+      "Scale": "0",
+      "Min": "1",
+      "Max": "247",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 13,
+      "Name": "Скорость обмена, бит/сек",
+      "Mode": "RW",
+      "Adr": "5603",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Скорость обмена, бит/сек",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 14,
+      "Name": "Количество бит данных",
+      "Mode": "R",
+      "Adr": "5604",
+      "Type": "uint16",
+      "Value": "8",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "4294967295",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 15,
+      "Name": "Контроль четности",
+      "Mode": "RW",
+      "Adr": "5605",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Контроль четности",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 16,
+      "Name": "Количество стоп-битов",
+      "Mode": "RW",
+      "Adr": "5606",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Количество стоп-битов",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 17,
+      "Name": "Применить новые сетевые параметры",
+      "Mode": "RW",
+      "Adr": "5611",
+      "Type": "uint16",
+      "Value": "1",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    }
+  ],
+  "ConnectionSettings_PortName": "",
+  "ConnectionSettings_BaudRate": "",
+  "ConnectionSettings_Parity": "",
+  "ConnectionSettings_Address": "",
+  "ConnectionSettings_TcpIp": "",
+  "ConnectionSettings_TcpPort": "",
+  "ConnectionSettings_WriteSingleRegister": false,
+  "ConnectionSettings_ChangeRegisterSequence": false,
+  "ConnectionSettings_GroupRequest": true,
+  "ListDefinitions": [
+    {
+      "Name": "Тип сенсора",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "50М"
+        },
+        {
+          "Value": 1,
+          "Description": "100М"
+        },
+        {
+          "Value": 2,
+          "Description": "100П"
+        },
+        {
+          "Value": 3,
+          "Description": "Pt 100"
+        },
+        {
+          "Value": 4,
+          "Description": "Pt 1000"
+        },
+        {
+          "Value": 5,
+          "Description": "TХК (L)"
+        },
+        {
+          "Value": 6,
+          "Description": "TНН (N)"
+        },
+        {
+          "Value": 7,
+          "Description": "TХА (К)"
+        }
+      ]
+    },
+    {
+      "Name": "Скорость обмена, бит/сек",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "9600"
+        },
+        {
+          "Value": 1,
+          "Description": "14400"
+        },
+        {
+          "Value": 2,
+          "Description": "19200"
+        },
+        {
+          "Value": 3,
+          "Description": "38400"
+        },
+        {
+          "Value": 4,
+          "Description": "57600"
+        },
+        {
+          "Value": 5,
+          "Description": "115200"
+        }
+      ]
+    },
+    {
+      "Name": "Контроль четности",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "нет"
+        },
+        {
+          "Value": 1,
+          "Description": "четный"
+        },
+        {
+          "Value": 2,
+          "Description": "нечетный"
+        }
+      ]
+    },
+    {
+      "Name": "Количество стоп-битов",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "1"
+        },
+        {
+          "Value": 1,
+          "Description": "1,5"
+        },
+        {
+          "Value": 2,
+          "Description": "2"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,827 @@
+{
+  "DeviceName": "ИТП15_sw:1.0.0",
+  "Data": [
+    {
+      "Num": 0,
+      "Name": "Настройки измерительного входа",
+      "Mode": "",
+      "Adr": "",
+      "Type": "",
+      "Value": "",
+      "Scale": "",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": true,
+      "IsNotHeader": false
+    },
+    {
+      "Num": 0,
+      "Name": "Измеренное значение на входе (IN)",
+      "Mode": "R",
+      "Adr": "1",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-1999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 1,
+      "Name": "Тип датчика (in.t)",
+      "Mode": "RW",
+      "Adr": "3",
+      "Type": "list",
+      "Value": "38",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Тип датчика (in.t)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 2,
+      "Name": "Постоянная времени фильтра (td)",
+      "Mode": "RW",
+      "Adr": "4",
+      "Type": "uint16",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "10",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 3,
+      "Name": "Нижнее значение физического параметра (di.Lo)",
+      "Mode": "RW",
+      "Adr": "6",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-1999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 4,
+      "Name": "Верхнее значение физ. параметра (di.Hi)",
+      "Mode": "RW",
+      "Adr": "8",
+      "Type": "real",
+      "Value": "100",
+      "Scale": "0",
+      "Min": "-1999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 5,
+      "Name": "Нижняя граница диапазона, отображаемого на шкальном индикаторе (Bar.L)",
+      "Mode": "RW",
+      "Adr": "14",
+      "Type": "real",
+      "Value": "100",
+      "Scale": "0",
+      "Min": "-1999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 6,
+      "Name": "Верхняя граница диапазона, отображаемого на шкальном индикаторе  (Bar.H)",
+      "Mode": "RW",
+      "Adr": "16",
+      "Type": "real",
+      "Value": "100",
+      "Scale": "0",
+      "Min": "-1999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 7,
+      "Name": "2х / 3х проводная схема изм. терморезистора (2u3u)",
+      "Mode": "RW",
+      "Adr": "11",
+      "Type": "list",
+      "Value": "1",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "2х / 3х проводная схема изм. терморезистора (2u3u)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 8,
+      "Name": "Коррекция сдвига измеренного на входе значения (Сorr)",
+      "Mode": "RW",
+      "Adr": "12",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-1999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 0,
+      "Name": "Настройки ВУ",
+      "Mode": "",
+      "Adr": "",
+      "Type": "",
+      "Value": "",
+      "Scale": "",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": true,
+      "IsNotHeader": false
+    },
+    {
+      "Num": 9,
+      "Name": "Тип логики компаратора (Cnt)",
+      "Mode": "RW",
+      "Adr": "257",
+      "Type": "list",
+      "Value": "2",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Тип логики компаратора (Cnt)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 10,
+      "Name": "Нижняя уставка компаратора (SP.Lo)",
+      "Mode": "RW",
+      "Adr": "258",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-1999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 11,
+      "Name": "Верхняя уставка компаратора (SP.Hi)",
+      "Mode": "RW",
+      "Adr": "260",
+      "Type": "real",
+      "Value": "30",
+      "Scale": "0",
+      "Min": "-1999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 12,
+      "Name": "Гистерезис ВУ (A.HYS)",
+      "Mode": "RW",
+      "Adr": "262",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 13,
+      "Name": "Состояние ВУ при отказе и откл. логике (out.E)",
+      "Mode": "RW",
+      "Adr": "264",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Состояние ВУ при отказе и откл. логике (out.E)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 0,
+      "Name": "Настройка цвета",
+      "Mode": "",
+      "Adr": "",
+      "Type": "",
+      "Value": "",
+      "Scale": "",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": true,
+      "IsNotHeader": false
+    },
+    {
+      "Num": 14,
+      "Name": "Порог смены цвета с COL.D на COL.1 (Zon.1)",
+      "Mode": "RW",
+      "Adr": "513",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-1999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 15,
+      "Name": "Порог смены цвета на COL.2 (Zon.2)",
+      "Mode": "RW",
+      "Adr": "515",
+      "Type": "real",
+      "Value": "50",
+      "Scale": "0",
+      "Min": "-1999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 16,
+      "Name": "Порог смены цвета на COL.3 (Zon.3)",
+      "Mode": "RW",
+      "Adr": "517",
+      "Type": "real",
+      "Value": "80",
+      "Scale": "0",
+      "Min": "-1999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 17,
+      "Name": "Порог смены цвета на COL.4 (Zon.4)",
+      "Mode": "RW",
+      "Adr": "519",
+      "Type": "real",
+      "Value": "100",
+      "Scale": "0",
+      "Min": "-1999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 18,
+      "Name": "Порог смены цвета c COL.4 на COL.D (Zon.5)",
+      "Mode": "RW",
+      "Adr": "521",
+      "Type": "real",
+      "Value": "100",
+      "Scale": "0",
+      "Min": "-1999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 19,
+      "Name": "Цвет зоны 1 (COL.1)",
+      "Mode": "RW",
+      "Adr": "523",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Цвет зоны 1 (COL.1)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 20,
+      "Name": "Цвет зоны 2 (COL.2)",
+      "Mode": "RW",
+      "Adr": "524",
+      "Type": "list",
+      "Value": "2",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Цвет зоны 2 (COL.2)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 21,
+      "Name": "Цвет зоны 3 (COL.3)",
+      "Mode": "RW",
+      "Adr": "525",
+      "Type": "list",
+      "Value": "1",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Цвет зоны 3 (COL.3)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 22,
+      "Name": "Цвет зоны 4 (COL.4)",
+      "Mode": "RW",
+      "Adr": "526",
+      "Type": "list",
+      "Value": "1",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Цвет зоны 4 (COL.4)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 23,
+      "Name": "Цвет индикации вне цветовых зон (COL.D)",
+      "Mode": "RW",
+      "Adr": "527",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Цвет индикации вне цветовых зон (COL.D)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 0,
+      "Name": "Сервисное меню",
+      "Mode": "",
+      "Adr": "",
+      "Type": "",
+      "Value": "",
+      "Scale": "",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": true,
+      "IsNotHeader": false
+    },
+    {
+      "Num": 24,
+      "Name": "Название прибора (Dev.t)",
+      "Mode": "R",
+      "Adr": "4097",
+      "Type": "string",
+      "Value": "ITP-15",
+      "Scale": "6",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 25,
+      "Name": "Версия ПО (Ver.F)",
+      "Mode": "R",
+      "Adr": "4103",
+      "Type": "string",
+      "Value": "V1.08",
+      "Scale": "6",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 26,
+      "Name": "Использование ДХС (CJS.E)",
+      "Mode": "RW",
+      "Adr": "4109",
+      "Type": "list",
+      "Value": "1",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Использование ДХС (CJS.E)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 27,
+      "Name": "Сброс на заводские настройки (d.Rst)",
+      "Mode": "RW",
+      "Adr": "4110",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Сброс на заводские настройки (d.Rst)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    }
+  ],
+  "ConnectionSettings_PortName": "",
+  "ConnectionSettings_BaudRate": "",
+  "ConnectionSettings_Parity": "",
+  "ConnectionSettings_Address": "",
+  "ConnectionSettings_TcpIp": "",
+  "ConnectionSettings_TcpPort": "",
+  "ConnectionSettings_WriteSingleRegister": false,
+  "ConnectionSettings_ChangeRegisterSequence": false,
+  "ConnectionSettings_GroupRequest": true,
+  "ListDefinitions": [
+    {
+      "Name": "Тип датчика (in.t)",
+      "Items": [
+        {
+          "Value": 38,
+          "Description": "Ток 4..20 мА"
+        },
+        {
+          "Value": 1,
+          "Description": "ТСМ (Cu50)"
+        },
+        {
+          "Value": 2,
+          "Description": "ТСМ (Cu100)"
+        },
+        {
+          "Value": 3,
+          "Description": "ТСМ (Cu500)"
+        },
+        {
+          "Value": 4,
+          "Description": "ТСМ (Cu1000)"
+        },
+        {
+          "Value": 5,
+          "Description": "ТСМ(50М)"
+        },
+        {
+          "Value": 6,
+          "Description": "ТСМ(100М)"
+        },
+        {
+          "Value": 7,
+          "Description": "ТСМ(500М)"
+        },
+        {
+          "Value": 8,
+          "Description": "ТСМ(1000М)"
+        },
+        {
+          "Value": 9,
+          "Description": "ТСП(Pt50)"
+        },
+        {
+          "Value": 10,
+          "Description": "ТСП(Pt100)"
+        },
+        {
+          "Value": 11,
+          "Description": "ТСП(Pt500)"
+        },
+        {
+          "Value": 12,
+          "Description": "ТСП(Pt1000)"
+        },
+        {
+          "Value": 13,
+          "Description": "ТСП(50П)"
+        },
+        {
+          "Value": 14,
+          "Description": "ТСП(100П)"
+        },
+        {
+          "Value": 15,
+          "Description": "ТСП(500П)"
+        },
+        {
+          "Value": 16,
+          "Description": "ТСП(1000П)"
+        },
+        {
+          "Value": 17,
+          "Description": "ТСН(100Н)"
+        },
+        {
+          "Value": 18,
+          "Description": "ТСН(500Н)"
+        },
+        {
+          "Value": 19,
+          "Description": "ТСН(1000Н)"
+        },
+        {
+          "Value": 20,
+          "Description": "ТХК(L)"
+        },
+        {
+          "Value": 21,
+          "Description": "ТХА(K)"
+        },
+        {
+          "Value": 22,
+          "Description": "ТЖК(J)"
+        },
+        {
+          "Value": 23,
+          "Description": "ТНН(N)"
+        },
+        {
+          "Value": 24,
+          "Description": "ТМК(T)"
+        },
+        {
+          "Value": 25,
+          "Description": "ТПП(S)"
+        },
+        {
+          "Value": 26,
+          "Description": "ТПП(R)"
+        },
+        {
+          "Value": 27,
+          "Description": "ТПР(B)"
+        },
+        {
+          "Value": 28,
+          "Description": "ТВР(A-1)"
+        },
+        {
+          "Value": 29,
+          "Description": "ТВР(A-2)"
+        },
+        {
+          "Value": 30,
+          "Description": "ТВР(A-3)"
+        },
+        {
+          "Value": 31,
+          "Description": "Typ.L (DIN 43710)"
+        },
+        {
+          "Value": 32,
+          "Description": "Пирометр РК-15"
+        },
+        {
+          "Value": 33,
+          "Description": "Пирометр РС-20"
+        },
+        {
+          "Value": 34,
+          "Description": "Пирометр РС-20"
+        },
+        {
+          "Value": 35,
+          "Description": "Пирометр РС-25"
+        },
+        {
+          "Value": 36,
+          "Description": "Ток 0..5 мА"
+        },
+        {
+          "Value": 37,
+          "Description": "Ток 0..20 мА"
+        },
+        {
+          "Value": 39,
+          "Description": "Напряжение 2..10 В"
+        },
+        {
+          "Value": 40,
+          "Description": "Напряжение 0..10 В"
+        },
+        {
+          "Value": 41,
+          "Description": "Напряжение -50..50 мВ"
+        },
+        {
+          "Value": 42,
+          "Description": "Напряжение 0..1 В"
+        },
+        {
+          "Value": 0,
+          "Description": "OFF"
+        }
+      ]
+    },
+    {
+      "Name": "2х / 3х проводная схема изм. терморезистора (2u3u)",
+      "Items": [
+        {
+          "Value": 1,
+          "Description": "3х проводная"
+        },
+        {
+          "Value": 0,
+          "Description": "2х проводная"
+        }
+      ]
+    },
+    {
+      "Name": "Тип логики компаратора (Cnt)",
+      "Items": [
+        {
+          "Value": 2,
+          "Description": "U"
+        },
+        {
+          "Value": 1,
+          "Description": "П"
+        },
+        {
+          "Value": 0,
+          "Description": "OFF"
+        }
+      ]
+    },
+    {
+      "Name": "Состояние ВУ при отказе и откл. логике (out.E)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "OFF"
+        },
+        {
+          "Value": 1,
+          "Description": "ON"
+        }
+      ]
+    },
+    {
+      "Name": "Цвет зоны 1 (COL.1)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "Зеленый"
+        },
+        {
+          "Value": 1,
+          "Description": "Красный"
+        },
+        {
+          "Value": 2,
+          "Description": "Желтый"
+        }
+      ]
+    },
+    {
+      "Name": "Цвет зоны 2 (COL.2)",
+      "Items": [
+        {
+          "Value": 2,
+          "Description": "Желтый"
+        },
+        {
+          "Value": 0,
+          "Description": "Зеленый"
+        },
+        {
+          "Value": 1,
+          "Description": "Красный"
+        }
+      ]
+    },
+    {
+      "Name": "Цвет зоны 3 (COL.3)",
+      "Items": [
+        {
+          "Value": 1,
+          "Description": "Красный"
+        },
+        {
+          "Value": 0,
+          "Description": "Зеленый"
+        },
+        {
+          "Value": 2,
+          "Description": "Желтый"
+        }
+      ]
+    },
+    {
+      "Name": "Цвет зоны 4 (COL.4)",
+      "Items": [
+        {
+          "Value": 1,
+          "Description": "Красный"
+        },
+        {
+          "Value": 0,
+          "Description": "Зеленый"
+        },
+        {
+          "Value": 2,
+          "Description": "Желтый"
+        }
+      ]
+    },
+    {
+      "Name": "Цвет индикации вне цветовых зон (COL.D)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "Зеленый"
+        },
+        {
+          "Value": 1,
+          "Description": "Красный"
+        },
+        {
+          "Value": 2,
+          "Description": "Желтый"
+        }
+      ]
+    },
+    {
+      "Name": "Использование ДХС (CJS.E)",
+      "Items": [
+        {
+          "Value": 1,
+          "Description": "ON"
+        },
+        {
+          "Value": 0,
+          "Description": "OFF"
+        }
+      ]
+    },
+    {
+      "Name": "Сброс на заводские настройки (d.Rst)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "OFF"
+        },
+        {
+          "Value": 1,
+          "Description": "Сброс"
+        }
+      ]
+    }
+  ]
+}

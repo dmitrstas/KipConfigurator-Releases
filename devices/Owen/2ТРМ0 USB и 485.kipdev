@@ -1,0 +1,2056 @@
+{
+  "DeviceName": "2ТРМ0 с USB и RS-485_sw:1.0.2",
+  "Data": [
+    {
+      "Num": 0,
+      "Name": "Оперативные параметры",
+      "Mode": "",
+      "Adr": "",
+      "Type": "",
+      "Value": "",
+      "Scale": "",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": true,
+      "IsNotHeader": false
+    },
+    {
+      "Num": 0,
+      "Name": "Тип прибора (DEVICE)",
+      "Mode": "R",
+      "Adr": "4096",
+      "Type": "string",
+      "Value": "2TPM0.RS",
+      "Scale": "8",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 1,
+      "Name": "Версия встраиваемого ПО (VERSION)",
+      "Mode": "R",
+      "Adr": "4100",
+      "Type": "string",
+      "Value": "VER 3.09",
+      "Scale": "8",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 2,
+      "Name": "Статус прибора (битовая маска) (STATUS)",
+      "Mode": "R",
+      "Adr": "4104",
+      "Type": "int16",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 3,
+      "Name": "Выходная величина на Входе 1 (до функции) (PV1)",
+      "Mode": "R",
+      "Adr": "4105",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-9999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 4,
+      "Name": "Выходная величина на Входе 2 (до функции) (PV2)",
+      "Mode": "R",
+      "Adr": "4107",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-9999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 5,
+      "Name": "Измененная величина на Входе 1 (FUN1)",
+      "Mode": "R",
+      "Adr": "4109",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-9999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 6,
+      "Name": "Измененная величина на Входе 2 (FUN2)",
+      "Mode": "R",
+      "Adr": "4111",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-9999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 7,
+      "Name": "Удаленная перезагрузка прибора (RESET)",
+      "Mode": "RW",
+      "Adr": "4113",
+      "Type": "int16",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "1",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 0,
+      "Name": "Вход 1 (In1)",
+      "Mode": "",
+      "Adr": "",
+      "Type": "",
+      "Value": "",
+      "Scale": "",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": true,
+      "IsNotHeader": false
+    },
+    {
+      "Num": 8,
+      "Name": "Измеренная величина на Входе (после функции) (FUN1)",
+      "Mode": "R",
+      "Adr": "0",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-3.40282347E+38",
+      "Max": "3.40282347E+38",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 9,
+      "Name": "Входная величина на Входе (до функции) (PV1)",
+      "Mode": "R",
+      "Adr": "2",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-3.40282347E+38",
+      "Max": "3.40282347E+38",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 10,
+      "Name": "Тип датчика на Входе (Type)",
+      "Mode": "RW",
+      "Adr": "4",
+      "Type": "list",
+      "Value": "21",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Тип датчика на Входе (Type)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 11,
+      "Name": "Полоса фильтра (Fil.b)",
+      "Mode": "RW",
+      "Adr": "5",
+      "Type": "real",
+      "Value": "1",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 12,
+      "Name": "Постоянная времени фильтра (Fil.t)",
+      "Mode": "RW",
+      "Adr": "7",
+      "Type": "uint16",
+      "Value": "10",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 13,
+      "Name": "Положение десятичной точки (Dpt)",
+      "Mode": "RW",
+      "Adr": "8",
+      "Type": "list",
+      "Value": "1",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Положение десятичной точки (Dpt)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 14,
+      "Name": "Нижний порог приведения значения Входа (Ind.L)",
+      "Mode": "RW",
+      "Adr": "9",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-1999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 15,
+      "Name": "Верхний порог приведения значения Входа (Ind.H)",
+      "Mode": "RW",
+      "Adr": "11",
+      "Type": "real",
+      "Value": "100",
+      "Scale": "0",
+      "Min": "-1999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 16,
+      "Name": "Тип функции для измерителя (Func)",
+      "Mode": "RW",
+      "Adr": "13",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Тип функции для измерителя (Func)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 17,
+      "Name": "Коэффициент 1 взвешенной суммы (Cf.1)",
+      "Mode": "RW",
+      "Adr": "14",
+      "Type": "real",
+      "Value": "1",
+      "Scale": "0",
+      "Min": "-100",
+      "Max": "100",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 18,
+      "Name": "Коэффициент 2 взвешенной суммы (Cf.2)",
+      "Mode": "RW",
+      "Adr": "16",
+      "Type": "real",
+      "Value": "1",
+      "Scale": "0",
+      "Min": "-100",
+      "Max": "100",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 19,
+      "Name": "Период выборки анализа динамики сигнала (Din.T)",
+      "Mode": "RW",
+      "Adr": "18",
+      "Type": "uint16",
+      "Value": "10",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "30",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 20,
+      "Name": "Дельта динамики сигнала (Din.D)",
+      "Mode": "RW",
+      "Adr": "19",
+      "Type": "real",
+      "Value": "0.2",
+      "Scale": "0",
+      "Min": "0,2",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 21,
+      "Name": "Подключение искробарьера (Barr)",
+      "Mode": "RW",
+      "Adr": "21",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Подключение искробарьера (Barr)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 0,
+      "Name": "Вход 1 (In1) -> Корректировка (Corr)",
+      "Mode": "",
+      "Adr": "",
+      "Type": "",
+      "Value": "",
+      "Scale": "",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": true,
+      "IsNotHeader": false
+    },
+    {
+      "Num": 22,
+      "Name": "Значение Точки 1 корректировки Входа (Cor1.point)",
+      "Mode": "RW",
+      "Adr": "22",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-3,40282347e+38",
+      "Max": "3,40282347e+38",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 23,
+      "Name": "Смещение для Точки 1 корректировки Входа (Cor1.offset)",
+      "Mode": "RW",
+      "Adr": "24",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-3,40282347e+38",
+      "Max": "3,40282347e+38",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 24,
+      "Name": "Сброс коррекции Точки 1 (Cor1.clr)",
+      "Mode": "RW",
+      "Adr": "26",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Сброс коррекции Точки 1 (Cor1.clr)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 25,
+      "Name": "Значение Точки 2 корректировки Входа (Cor2.point)",
+      "Mode": "RW",
+      "Adr": "27",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-3,40282347e+38",
+      "Max": "3,40282347e+38",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 26,
+      "Name": "Смещение для Точки 2 корректировки Входа (Cor2.offset)",
+      "Mode": "RW",
+      "Adr": "29",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-3,40282347e+38",
+      "Max": "3,40282347e+38",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 27,
+      "Name": "Сброс коррекции Точки 2 (Cor2.clr)",
+      "Mode": "RW",
+      "Adr": "31",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Сброс коррекции Точки 2 (Cor2.clr)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 28,
+      "Name": "Значение Точки 3 корректировки Входа (Cor3.point)",
+      "Mode": "RW",
+      "Adr": "32",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-3,40282347e+38",
+      "Max": "3,40282347e+38",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 29,
+      "Name": "Смещение для Точки 3 корректировки Входа (Cor3.offset)",
+      "Mode": "RW",
+      "Adr": "34",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-3,40282347e+38",
+      "Max": "3,40282347e+38",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 30,
+      "Name": "Сброс коррекции Точки 3 (Cor3.clr)",
+      "Mode": "RW",
+      "Adr": "36",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Сброс коррекции Точки 3 (Cor3.clr)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 0,
+      "Name": "Вход 2 (In2)",
+      "Mode": "",
+      "Adr": "",
+      "Type": "",
+      "Value": "",
+      "Scale": "",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": true,
+      "IsNotHeader": false
+    },
+    {
+      "Num": 31,
+      "Name": "Измеренная величина на Входе (после функции) (FUN2)",
+      "Mode": "R",
+      "Adr": "256",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-3.40282347E+38",
+      "Max": "3.40282347E+38",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 32,
+      "Name": "Входная величина на Входе (до функции) (PV2)",
+      "Mode": "R",
+      "Adr": "258",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-3.40282347E+38",
+      "Max": "3.40282347E+38",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 33,
+      "Name": "Тип датчика на Входе (Type)",
+      "Mode": "RW",
+      "Adr": "260",
+      "Type": "list",
+      "Value": "21",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Тип датчика на Входе (Type)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 34,
+      "Name": "Полоса фильтра (Fil.b)",
+      "Mode": "RW",
+      "Adr": "261",
+      "Type": "real",
+      "Value": "1",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 35,
+      "Name": "Постоянная времени фильтра (Fil.t)",
+      "Mode": "RW",
+      "Adr": "263",
+      "Type": "uint16",
+      "Value": "10",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 36,
+      "Name": "Положение десятичной точки (Dpt)",
+      "Mode": "RW",
+      "Adr": "264",
+      "Type": "list",
+      "Value": "1",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Положение десятичной точки (Dpt)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 37,
+      "Name": "Нижний порог приведения значения Входа (Ind.L)",
+      "Mode": "RW",
+      "Adr": "265",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-1999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 38,
+      "Name": "Верхний порог приведения значения Входа (Ind.H)",
+      "Mode": "RW",
+      "Adr": "267",
+      "Type": "real",
+      "Value": "100",
+      "Scale": "0",
+      "Min": "-1999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 39,
+      "Name": "Тип функции для измерителя (Func)",
+      "Mode": "RW",
+      "Adr": "269",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Тип функции для измерителя (Func)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 40,
+      "Name": "Коэффициент 1 взвешенной суммы (Cf.1)",
+      "Mode": "RW",
+      "Adr": "270",
+      "Type": "real",
+      "Value": "1",
+      "Scale": "0",
+      "Min": "-100",
+      "Max": "100",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 41,
+      "Name": "Коэффициент 2 взвешенной суммы (Cf.2)",
+      "Mode": "RW",
+      "Adr": "272",
+      "Type": "real",
+      "Value": "1",
+      "Scale": "0",
+      "Min": "-100",
+      "Max": "100",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 42,
+      "Name": "Период выборки анализа динамики сигнала (Din.T)",
+      "Mode": "RW",
+      "Adr": "274",
+      "Type": "uint16",
+      "Value": "10",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "30",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 43,
+      "Name": "Дельта динамики сигнала (Din.D)",
+      "Mode": "RW",
+      "Adr": "275",
+      "Type": "real",
+      "Value": "0.2",
+      "Scale": "0",
+      "Min": "0,2",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 44,
+      "Name": "Подключение искробарьера (Barr)",
+      "Mode": "RW",
+      "Adr": "277",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Подключение искробарьера (Barr)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 0,
+      "Name": "Вход 2 (In2) -> Корректировка (Corr)",
+      "Mode": "",
+      "Adr": "",
+      "Type": "",
+      "Value": "",
+      "Scale": "",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": true,
+      "IsNotHeader": false
+    },
+    {
+      "Num": 45,
+      "Name": "Значение Точки 1 корректировки Входа (Cor1.point)",
+      "Mode": "RW",
+      "Adr": "278",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-3,40282347e+38",
+      "Max": "3,40282347e+38",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 46,
+      "Name": "Смещение для Точки 1 корректировки Входа (Cor1.offset)",
+      "Mode": "RW",
+      "Adr": "280",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-3,40282347e+38",
+      "Max": "3,40282347e+38",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 47,
+      "Name": "Сбос коррекции Точки 1 (Cor1.clr)",
+      "Mode": "RW",
+      "Adr": "282",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Сбос коррекции Точки 1 (Cor1.clr)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 48,
+      "Name": "Значение Точки 2 корректировки Входа (Cor2.point)",
+      "Mode": "RW",
+      "Adr": "283",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-3,40282347e+38",
+      "Max": "3,40282347e+38",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 49,
+      "Name": "Смещение для Точки 2 корректировки Входа (Cor2.offset)",
+      "Mode": "RW",
+      "Adr": "285",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-3,40282347e+38",
+      "Max": "3,40282347e+38",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 50,
+      "Name": "Сбос коррекции Точки 2 (Cor2.clr)",
+      "Mode": "RW",
+      "Adr": "287",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Сбос коррекции Точки 2 (Cor2.clr)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 51,
+      "Name": "Значение Точки 3 корректировки Входа (Cor3.point)",
+      "Mode": "RW",
+      "Adr": "288",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-3,40282347e+38",
+      "Max": "3,40282347e+38",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 52,
+      "Name": "Смещение для Точки 3 корректировки Входа (Cor3.offset)",
+      "Mode": "RW",
+      "Adr": "290",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-3,40282347e+38",
+      "Max": "3,40282347e+38",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 53,
+      "Name": "Сбос коррекции Точки 3 (Cor3.clr)",
+      "Mode": "RW",
+      "Adr": "292",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Сбос коррекции Точки 3 (Cor3.clr)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 0,
+      "Name": "Индикация (Ind)",
+      "Mode": "",
+      "Adr": "",
+      "Type": "",
+      "Value": "",
+      "Scale": "",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": true,
+      "IsNotHeader": false
+    },
+    {
+      "Num": 54,
+      "Name": "Пользовательский экран 1 (Scr1)",
+      "Mode": "RW",
+      "Adr": "1024",
+      "Type": "list",
+      "Value": "17",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Пользовательский экран 1 (Scr1)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 55,
+      "Name": "Пользовательский экран 2 (Scr2)",
+      "Mode": "RW",
+      "Adr": "1025",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Пользовательский экран 2 (Scr2)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 56,
+      "Name": "Пользовательский экран 3 (Scr3)",
+      "Mode": "RW",
+      "Adr": "1026",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Пользовательский экран 3 (Scr3)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 57,
+      "Name": "Пользовательский экран 4 (Scr4)",
+      "Mode": "RW",
+      "Adr": "1027",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Пользовательский экран 4 (Scr4)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 58,
+      "Name": "Пользовательский экран 5 (Scr5)",
+      "Mode": "RW",
+      "Adr": "1028",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Пользовательский экран 5 (Scr5)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 59,
+      "Name": "Пользовательский экран 6 (Scr6)",
+      "Mode": "RW",
+      "Adr": "1029",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Пользовательский экран 6 (Scr6)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 60,
+      "Name": "Настройка вывода параметра мощности (Out.S)",
+      "Mode": "RW",
+      "Adr": "1030",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Настройка вывода параметра мощности (Out.S)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 61,
+      "Name": "Время автоматического возврата из меню настроек (Ret.T)",
+      "Mode": "RW",
+      "Adr": "1031",
+      "Type": "list",
+      "Value": "3",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Время автоматического возврата из меню настроек (Ret.T)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 62,
+      "Name": "Автоматическая смена экранов отображения параметров (Chg.T)",
+      "Mode": "RW",
+      "Adr": "1032",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Автоматическая смена экранов отображения параметров (Chg.T)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 0,
+      "Name": "Modbus RS-485 (r485)",
+      "Mode": "",
+      "Adr": "",
+      "Type": "",
+      "Value": "",
+      "Scale": "",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": true,
+      "IsNotHeader": false
+    },
+    {
+      "Num": 63,
+      "Name": "Протокол связи (Prot)",
+      "Mode": "RW",
+      "Adr": "1280",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Протокол связи (Prot)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 64,
+      "Name": "Адрес прибора в сети Modbus (Addr)",
+      "Mode": "RW",
+      "Adr": "1281",
+      "Type": "int16",
+      "Value": "16",
+      "Scale": "0",
+      "Min": "1",
+      "Max": "247",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 65,
+      "Name": "Скорость обмена данными (Baud)",
+      "Mode": "RW",
+      "Adr": "1282",
+      "Type": "list",
+      "Value": "2",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Скорость обмена данными (Baud)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 66,
+      "Name": "Формат посылки данных (Dps)",
+      "Mode": "RW",
+      "Adr": "1283",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Формат посылки данных (Dps)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 67,
+      "Name": "Задержка ответа от прибора (Idle)",
+      "Mode": "RW",
+      "Adr": "1284",
+      "Type": "int16",
+      "Value": "2",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "20",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 68,
+      "Name": "Порядок байт в регистре (B.ord)",
+      "Mode": "RW",
+      "Adr": "1285",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Порядок байт в регистре (B.ord)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 69,
+      "Name": "Применение текущих настроек порта RS-485 (Apply)",
+      "Mode": "RW",
+      "Adr": "1286",
+      "Type": "int16",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-32768",
+      "Max": "32767",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 0,
+      "Name": "Меню скрытых параметров (SCRT)",
+      "Mode": "",
+      "Adr": "",
+      "Type": "",
+      "Value": "",
+      "Scale": "",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": true,
+      "IsNotHeader": false
+    },
+    {
+      "Num": 70,
+      "Name": "Пароль доступа к меню (PASS)",
+      "Mode": "RW",
+      "Adr": "2048",
+      "Type": "int16",
+      "Value": "100",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 71,
+      "Name": "Защита от редактирования значений переменных (Prt.E)",
+      "Mode": "RW",
+      "Adr": "2049",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Защита от редактирования значений переменных (Prt.E)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 72,
+      "Name": "Включение атрибутов скрытых параметров (Atr.E)",
+      "Mode": "RW",
+      "Adr": "2050",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Включение атрибутов скрытых параметров (Atr.E)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 73,
+      "Name": "Отключение ДХС (Cjs.E)",
+      "Mode": "RW",
+      "Adr": "2051",
+      "Type": "list",
+      "Value": "1",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Отключение ДХС (Cjs.E)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    }
+  ],
+  "ConnectionSettings_PortName": "",
+  "ConnectionSettings_BaudRate": "",
+  "ConnectionSettings_Parity": "",
+  "ConnectionSettings_Address": "",
+  "ConnectionSettings_TcpIp": "",
+  "ConnectionSettings_TcpPort": "",
+  "ConnectionSettings_WriteSingleRegister": false,
+  "ConnectionSettings_ChangeRegisterSequence": false,
+  "ConnectionSettings_GroupRequest": true,
+  "ListDefinitions": [
+    {
+      "Name": "Тип датчика на Входе (Type)",
+      "Items": [
+        {
+          "Value": 21,
+          "Description": "ТХК(L)"
+        },
+        {
+          "Value": 1,
+          "Description": "Cu50"
+        },
+        {
+          "Value": 2,
+          "Description": "Cu53"
+        },
+        {
+          "Value": 3,
+          "Description": "Cu100"
+        },
+        {
+          "Value": 4,
+          "Description": "Cu500"
+        },
+        {
+          "Value": 5,
+          "Description": "Cu1000"
+        },
+        {
+          "Value": 6,
+          "Description": "50M"
+        },
+        {
+          "Value": 7,
+          "Description": "100M"
+        },
+        {
+          "Value": 8,
+          "Description": "500M"
+        },
+        {
+          "Value": 9,
+          "Description": "1000M"
+        },
+        {
+          "Value": 10,
+          "Description": "Pt50"
+        },
+        {
+          "Value": 11,
+          "Description": "Pt100"
+        },
+        {
+          "Value": 12,
+          "Description": "Pt500"
+        },
+        {
+          "Value": 13,
+          "Description": "Pt1000"
+        },
+        {
+          "Value": 14,
+          "Description": "50П"
+        },
+        {
+          "Value": 15,
+          "Description": "100П"
+        },
+        {
+          "Value": 16,
+          "Description": "500П"
+        },
+        {
+          "Value": 17,
+          "Description": "1000П"
+        },
+        {
+          "Value": 18,
+          "Description": "100Н"
+        },
+        {
+          "Value": 19,
+          "Description": "500Н"
+        },
+        {
+          "Value": 20,
+          "Description": "1000Н"
+        },
+        {
+          "Value": 22,
+          "Description": "ТХА(K)"
+        },
+        {
+          "Value": 23,
+          "Description": "ТЖК(J)"
+        },
+        {
+          "Value": 24,
+          "Description": "ТНН(N)"
+        },
+        {
+          "Value": 25,
+          "Description": "ТМК(T)"
+        },
+        {
+          "Value": 26,
+          "Description": "ТПП(S)"
+        },
+        {
+          "Value": 27,
+          "Description": "ТПП(R)"
+        },
+        {
+          "Value": 28,
+          "Description": "ТПР(B)"
+        },
+        {
+          "Value": 29,
+          "Description": "ТВР(A-1)"
+        },
+        {
+          "Value": 30,
+          "Description": "ТВР(A-2)"
+        },
+        {
+          "Value": 31,
+          "Description": "ТВР(A-3)"
+        },
+        {
+          "Value": 32,
+          "Description": "Typ.L (DIN 43710)"
+        },
+        {
+          "Value": 33,
+          "Description": "ТХКн(Е)"
+        },
+        {
+          "Value": 34,
+          "Description": "Пирометр РК-15"
+        },
+        {
+          "Value": 35,
+          "Description": "Пирометр РК-20"
+        },
+        {
+          "Value": 36,
+          "Description": "Пирометр РС-20"
+        },
+        {
+          "Value": 37,
+          "Description": "Пирометр РС-25"
+        },
+        {
+          "Value": 38,
+          "Description": "Ток 0..5 мА"
+        },
+        {
+          "Value": 39,
+          "Description": "Ток 0..20 мА"
+        },
+        {
+          "Value": 40,
+          "Description": "Ток 4..20 мА"
+        },
+        {
+          "Value": 41,
+          "Description": "Напряжение -50..50 мВ"
+        },
+        {
+          "Value": 42,
+          "Description": "Напряжение 0..1 В"
+        },
+        {
+          "Value": 43,
+          "Description": "Напряжение 0..5 В"
+        },
+        {
+          "Value": 44,
+          "Description": "Напряжение 0..10 В"
+        },
+        {
+          "Value": 0,
+          "Description": "OFF"
+        }
+      ]
+    },
+    {
+      "Name": "Положение десятичной точки (Dpt)",
+      "Items": [
+        {
+          "Value": 1,
+          "Description": "1"
+        },
+        {
+          "Value": 0,
+          "Description": "0"
+        },
+        {
+          "Value": 2,
+          "Description": "2"
+        },
+        {
+          "Value": 3,
+          "Description": "3"
+        },
+        {
+          "Value": 4,
+          "Description": "AUTO"
+        }
+      ]
+    },
+    {
+      "Name": "Тип функции для измерителя (Func)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "OFF"
+        },
+        {
+          "Value": 1,
+          "Description": "SQRT"
+        },
+        {
+          "Value": 2,
+          "Description": "SQRI"
+        },
+        {
+          "Value": 3,
+          "Description": "SUM"
+        },
+        {
+          "Value": 4,
+          "Description": "DIFF"
+        },
+        {
+          "Value": 5,
+          "Description": "ASUM"
+        },
+        {
+          "Value": 6,
+          "Description": "SQSM"
+        },
+        {
+          "Value": 7,
+          "Description": "RAT"
+        }
+      ]
+    },
+    {
+      "Name": "Подключение искробарьера (Barr)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "OFF"
+        },
+        {
+          "Value": 1,
+          "Description": "ON"
+        }
+      ]
+    },
+    {
+      "Name": "Сброс коррекции Точки 1 (Cor1.clr)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "OFF"
+        },
+        {
+          "Value": 1,
+          "Description": "Применить"
+        }
+      ]
+    },
+    {
+      "Name": "Сброс коррекции Точки 2 (Cor2.clr)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "OFF"
+        },
+        {
+          "Value": 1,
+          "Description": "Применить"
+        }
+      ]
+    },
+    {
+      "Name": "Сброс коррекции Точки 3 (Cor3.clr)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "OFF"
+        },
+        {
+          "Value": 1,
+          "Description": "Применить"
+        }
+      ]
+    },
+    {
+      "Name": "Сбос коррекции Точки 1 (Cor1.clr)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "OFF"
+        },
+        {
+          "Value": 1,
+          "Description": "Применить"
+        }
+      ]
+    },
+    {
+      "Name": "Сбос коррекции Точки 2 (Cor2.clr)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "OFF"
+        },
+        {
+          "Value": 1,
+          "Description": "Применить"
+        }
+      ]
+    },
+    {
+      "Name": "Сбос коррекции Точки 3 (Cor3.clr)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "OFF"
+        },
+        {
+          "Value": 1,
+          "Description": "Применить"
+        }
+      ]
+    },
+    {
+      "Name": "Пользовательский экран 1 (Scr1)",
+      "Items": [
+        {
+          "Value": 17,
+          "Description": "P1.P2"
+        },
+        {
+          "Value": 3,
+          "Description": "P1.D1"
+        },
+        {
+          "Value": 7,
+          "Description": "F1.D1"
+        },
+        {
+          "Value": 11,
+          "Description": "P2.D2"
+        },
+        {
+          "Value": 15,
+          "Description": "F2.D2"
+        },
+        {
+          "Value": 18,
+          "Description": "P1.F2"
+        },
+        {
+          "Value": 19,
+          "Description": "F1.P2"
+        },
+        {
+          "Value": 20,
+          "Description": "F1.F2"
+        }
+      ]
+    },
+    {
+      "Name": "Пользовательский экран 2 (Scr2)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "OFF"
+        },
+        {
+          "Value": 3,
+          "Description": "P1.D1"
+        },
+        {
+          "Value": 7,
+          "Description": "F1.D1"
+        },
+        {
+          "Value": 11,
+          "Description": "P2.D2"
+        },
+        {
+          "Value": 15,
+          "Description": "F2.D2"
+        },
+        {
+          "Value": 17,
+          "Description": "P1.P2"
+        },
+        {
+          "Value": 18,
+          "Description": "P1.F2"
+        },
+        {
+          "Value": 19,
+          "Description": "F1.P2"
+        },
+        {
+          "Value": 20,
+          "Description": "F1.F2"
+        }
+      ]
+    },
+    {
+      "Name": "Пользовательский экран 3 (Scr3)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "OFF"
+        },
+        {
+          "Value": 3,
+          "Description": "P1.D1"
+        },
+        {
+          "Value": 7,
+          "Description": "F1.D1"
+        },
+        {
+          "Value": 11,
+          "Description": "P2.D2"
+        },
+        {
+          "Value": 15,
+          "Description": "F2.D2"
+        },
+        {
+          "Value": 17,
+          "Description": "P1.P2"
+        },
+        {
+          "Value": 18,
+          "Description": "P1.F2"
+        },
+        {
+          "Value": 19,
+          "Description": "F1.P2"
+        },
+        {
+          "Value": 20,
+          "Description": "F1.F2"
+        }
+      ]
+    },
+    {
+      "Name": "Пользовательский экран 4 (Scr4)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "OFF"
+        },
+        {
+          "Value": 3,
+          "Description": "P1.D1"
+        },
+        {
+          "Value": 7,
+          "Description": "F1.D1"
+        },
+        {
+          "Value": 11,
+          "Description": "P2.D2"
+        },
+        {
+          "Value": 15,
+          "Description": "F2.D2"
+        },
+        {
+          "Value": 17,
+          "Description": "P1.P2"
+        },
+        {
+          "Value": 18,
+          "Description": "P1.F2"
+        },
+        {
+          "Value": 19,
+          "Description": "F1.P2"
+        },
+        {
+          "Value": 20,
+          "Description": "F1.F2"
+        }
+      ]
+    },
+    {
+      "Name": "Пользовательский экран 5 (Scr5)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "OFF"
+        },
+        {
+          "Value": 3,
+          "Description": "P1.D1"
+        },
+        {
+          "Value": 7,
+          "Description": "F1.D1"
+        },
+        {
+          "Value": 11,
+          "Description": "P2.D2"
+        },
+        {
+          "Value": 15,
+          "Description": "F2.D2"
+        },
+        {
+          "Value": 17,
+          "Description": "P1.P2"
+        },
+        {
+          "Value": 18,
+          "Description": "P1.F2"
+        },
+        {
+          "Value": 19,
+          "Description": "F1.P2"
+        },
+        {
+          "Value": 20,
+          "Description": "F1.F2"
+        }
+      ]
+    },
+    {
+      "Name": "Пользовательский экран 6 (Scr6)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "OFF"
+        },
+        {
+          "Value": 3,
+          "Description": "P1.D1"
+        },
+        {
+          "Value": 7,
+          "Description": "F1.D1"
+        },
+        {
+          "Value": 11,
+          "Description": "P2.D2"
+        },
+        {
+          "Value": 15,
+          "Description": "F2.D2"
+        },
+        {
+          "Value": 17,
+          "Description": "P1.P2"
+        },
+        {
+          "Value": 18,
+          "Description": "P1.F2"
+        },
+        {
+          "Value": 19,
+          "Description": "F1.P2"
+        },
+        {
+          "Value": 16,
+          "Description": "F1.F2"
+        }
+      ]
+    },
+    {
+      "Name": "Настройка вывода параметра мощности (Out.S)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "PErC"
+        },
+        {
+          "Value": 1,
+          "Description": "dAC"
+        }
+      ]
+    },
+    {
+      "Name": "Время автоматического возврата из меню настроек (Ret.T)",
+      "Items": [
+        {
+          "Value": 3,
+          "Description": "30"
+        },
+        {
+          "Value": 1,
+          "Description": "5"
+        },
+        {
+          "Value": 2,
+          "Description": "10"
+        },
+        {
+          "Value": 4,
+          "Description": "60"
+        },
+        {
+          "Value": 0,
+          "Description": "OFF"
+        }
+      ]
+    },
+    {
+      "Name": "Автоматическая смена экранов отображения параметров (Chg.T)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "OFF"
+        },
+        {
+          "Value": 1,
+          "Description": "5"
+        },
+        {
+          "Value": 2,
+          "Description": "10"
+        },
+        {
+          "Value": 3,
+          "Description": "30"
+        },
+        {
+          "Value": 4,
+          "Description": "60"
+        },
+        {
+          "Value": 5,
+          "Description": "120"
+        }
+      ]
+    },
+    {
+      "Name": "Протокол связи (Prot)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "rtU"
+        },
+        {
+          "Value": 1,
+          "Description": "ASCI"
+        }
+      ]
+    },
+    {
+      "Name": "Скорость обмена данными (Baud)",
+      "Items": [
+        {
+          "Value": 2,
+          "Description": "9.6"
+        },
+        {
+          "Value": 0,
+          "Description": "2.4"
+        },
+        {
+          "Value": 1,
+          "Description": "4.8"
+        },
+        {
+          "Value": 3,
+          "Description": "14.4"
+        },
+        {
+          "Value": 4,
+          "Description": "19.2"
+        },
+        {
+          "Value": 5,
+          "Description": "28.8"
+        },
+        {
+          "Value": 6,
+          "Description": "38.4"
+        },
+        {
+          "Value": 7,
+          "Description": "57.6"
+        },
+        {
+          "Value": 8,
+          "Description": "115.2"
+        }
+      ]
+    },
+    {
+      "Name": "Формат посылки данных (Dps)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "8n1"
+        },
+        {
+          "Value": 1,
+          "Description": "8o1"
+        },
+        {
+          "Value": 2,
+          "Description": "8e1"
+        },
+        {
+          "Value": 3,
+          "Description": "8n2"
+        },
+        {
+          "Value": 4,
+          "Description": "8o2"
+        },
+        {
+          "Value": 5,
+          "Description": "8e2"
+        },
+        {
+          "Value": 6,
+          "Description": "7o1"
+        },
+        {
+          "Value": 7,
+          "Description": "7e1"
+        },
+        {
+          "Value": 8,
+          "Description": "7o2"
+        },
+        {
+          "Value": 9,
+          "Description": "7e2"
+        }
+      ]
+    },
+    {
+      "Name": "Порядок байт в регистре (B.ord)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "mSb"
+        },
+        {
+          "Value": 1,
+          "Description": "LSb"
+        }
+      ]
+    },
+    {
+      "Name": "Защита от редактирования значений переменных (Prt.E)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "OFF"
+        },
+        {
+          "Value": 1,
+          "Description": "SETT"
+        },
+        {
+          "Value": 2,
+          "Description": "ALL"
+        },
+        {
+          "Value": 3,
+          "Description": "HIDE"
+        }
+      ]
+    },
+    {
+      "Name": "Включение атрибутов скрытых параметров (Atr.E)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "OFF"
+        },
+        {
+          "Value": 1,
+          "Description": "ON"
+        },
+        {
+          "Value": 2,
+          "Description": "EDIT"
+        }
+      ]
+    },
+    {
+      "Name": "Отключение ДХС (Cjs.E)",
+      "Items": [
+        {
+          "Value": 1,
+          "Description": "ON"
+        },
+        {
+          "Value": 0,
+          "Description": "OFF"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2934 @@
+{
+  "DeviceName": "ТРМ10 с USB и RS-485_sw:1.0.2",
+  "Data": [
+    {
+      "Num": 0,
+      "Name": "Оперативные параметры",
+      "Mode": "",
+      "Adr": "",
+      "Type": "",
+      "Value": "",
+      "Scale": "",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": true,
+      "IsNotHeader": false
+    },
+    {
+      "Num": 0,
+      "Name": "Тип прибора (DEVICE)",
+      "Mode": "R",
+      "Adr": "4096",
+      "Type": "string",
+      "Value": "TPM10.RS",
+      "Scale": "8",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 1,
+      "Name": "Версия встраиваемого ПО (VERSION)",
+      "Mode": "R",
+      "Adr": "4100",
+      "Type": "string",
+      "Value": "VER 3.09",
+      "Scale": "8",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 2,
+      "Name": "Статус прибора (битовая маска) (STATUS)",
+      "Mode": "R",
+      "Adr": "4104",
+      "Type": "int16",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 3,
+      "Name": "Измененная величина на Входе 1 (FUN1)",
+      "Mode": "R",
+      "Adr": "4105",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-9999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 4,
+      "Name": "Уставка регулятора на Выходе 1 (SP1)",
+      "Mode": "RW",
+      "Adr": "4107",
+      "Type": "real",
+      "Value": "30",
+      "Scale": "0",
+      "Min": "-9999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 5,
+      "Name": "Текущее значение уставки регулятора (SP.cur)",
+      "Mode": "R",
+      "Adr": "4109",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-9999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 6,
+      "Name": "Выходная мощность на Выходе1 (Out.P)",
+      "Mode": "RW",
+      "Adr": "4111",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "100",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 7,
+      "Name": "Режим работы прибора (Ctrl)",
+      "Mode": "RW",
+      "Adr": "4113",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Режим работы прибора (Ctrl)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 8,
+      "Name": "Удаленная перезагрузка прибора (RESET)",
+      "Mode": "RW",
+      "Adr": "4114",
+      "Type": "int16",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "1",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 9,
+      "Name": "Измененная величина на Входе 1 (FUN1)",
+      "Mode": "R",
+      "Adr": "8192",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-9999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 10,
+      "Name": "Входная величина на Входе (до функции) (PV1_NOCORR)",
+      "Mode": "R",
+      "Adr": "8194",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-9999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 11,
+      "Name": "Текущее значение уставки регулятора (SP.cur)",
+      "Mode": "R",
+      "Adr": "8196",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-9999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 12,
+      "Name": "Уставка регулятора на Выходе 1 (SP1)",
+      "Mode": "RW",
+      "Adr": "8198",
+      "Type": "real",
+      "Value": "30",
+      "Scale": "0",
+      "Min": "-9999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 13,
+      "Name": "Выходная мощность на Выходе1 (Out.P)",
+      "Mode": "RW",
+      "Adr": "8200",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "100",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 14,
+      "Name": "Выходная мощность на Выходе1 (Out.P.UNL)",
+      "Mode": "R",
+      "Adr": "8202",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-3.40282347E+38",
+      "Max": "3.40282347E+38",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 15,
+      "Name": "Текущее значение рассогласования (невязки) (E.CUR)",
+      "Mode": "R",
+      "Adr": "8204",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-3.40282347E+38",
+      "Max": "3.40282347E+38",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 16,
+      "Name": "Текущая полоса пропорциональности ПИД-регулятора (Pid.P.CUR)",
+      "Mode": "R",
+      "Adr": "8206",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-3.40282347E+38",
+      "Max": "3.40282347E+38",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 17,
+      "Name": "Текущая интегральная постоянная ПИД-регулятора (Pid.I.CUR)",
+      "Mode": "R",
+      "Adr": "8208",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-3.40282347E+38",
+      "Max": "3.40282347E+38",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 18,
+      "Name": "Текущая дифференциальная постоянная ПИД-регулятора (Pid.d.CUR)",
+      "Mode": "R",
+      "Adr": "8210",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-3.40282347E+38",
+      "Max": "3.40282347E+38",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 19,
+      "Name": "Полоса пропорциональности ПИД-регулятора (Pid.P)",
+      "Mode": "RW",
+      "Adr": "8212",
+      "Type": "real",
+      "Value": "10",
+      "Scale": "0",
+      "Min": "0,001",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 20,
+      "Name": "Интегральная постоянная ПИД-регулятора (Pid.I)",
+      "Mode": "RW",
+      "Adr": "8214",
+      "Type": "int16",
+      "Value": "10",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "3999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 21,
+      "Name": "Дифференциальная постоянная ПИД-регулятора (Pid.d)",
+      "Mode": "RW",
+      "Adr": "8215",
+      "Type": "int16",
+      "Value": "10",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "3999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 22,
+      "Name": "Скорость изменения уставки (vSP)",
+      "Mode": "RW",
+      "Adr": "8216",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "999,9",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 23,
+      "Name": "Зона нечувствительности ПИД-регулятора (d.bnd)",
+      "Mode": "RW",
+      "Adr": "8218",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 24,
+      "Name": "Постоянная времени фильтра (Fil.t)",
+      "Mode": "RW",
+      "Adr": "8220",
+      "Type": "uint16",
+      "Value": "10",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 0,
+      "Name": "Вход 1 (In1)",
+      "Mode": "",
+      "Adr": "",
+      "Type": "",
+      "Value": "",
+      "Scale": "",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": true,
+      "IsNotHeader": false
+    },
+    {
+      "Num": 25,
+      "Name": "Измеренная величина на Входе (после функции) (FUN1)",
+      "Mode": "R",
+      "Adr": "0",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-9999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 26,
+      "Name": "Входная величина на Входе (до функции) (PV1)",
+      "Mode": "R",
+      "Adr": "2",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-9999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 27,
+      "Name": "Тип датчика на Входе (Type)",
+      "Mode": "RW",
+      "Adr": "4",
+      "Type": "list",
+      "Value": "21",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Тип датчика на Входе (Type)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 28,
+      "Name": "Полоса фильтра (Fil.b)",
+      "Mode": "RW",
+      "Adr": "5",
+      "Type": "real",
+      "Value": "1",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 29,
+      "Name": "Постоянная времени фильтра (Fil.t)",
+      "Mode": "RW",
+      "Adr": "7",
+      "Type": "uint16",
+      "Value": "10",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 30,
+      "Name": "Положение десятичной точки (Dpt)",
+      "Mode": "RW",
+      "Adr": "8",
+      "Type": "list",
+      "Value": "1",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Положение десятичной точки (Dpt)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 31,
+      "Name": "Нижний порог приведения значения Входа (Ind.L)",
+      "Mode": "RW",
+      "Adr": "9",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-1999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 32,
+      "Name": "Верхний порог приведения значения Входа (Ind.H)",
+      "Mode": "RW",
+      "Adr": "11",
+      "Type": "real",
+      "Value": "100",
+      "Scale": "0",
+      "Min": "-1999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 33,
+      "Name": "Тип функции для измерителя (Func)",
+      "Mode": "RW",
+      "Adr": "13",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Тип функции для измерителя (Func)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 34,
+      "Name": "Период выборки анализа динамики сигнала (Din.T)",
+      "Mode": "RW",
+      "Adr": "18",
+      "Type": "uint16",
+      "Value": "10",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "30",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 35,
+      "Name": "Дельта динамики сигнала (Din.D)",
+      "Mode": "RW",
+      "Adr": "19",
+      "Type": "real",
+      "Value": "0.2",
+      "Scale": "0",
+      "Min": "0,2",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 36,
+      "Name": "Подключение искробарьера (Barr)",
+      "Mode": "RW",
+      "Adr": "21",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Подключение искробарьера (Barr)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 0,
+      "Name": "Вход 1 (In1) -> Корректировка (Corr)",
+      "Mode": "",
+      "Adr": "",
+      "Type": "",
+      "Value": "",
+      "Scale": "",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": true,
+      "IsNotHeader": false
+    },
+    {
+      "Num": 37,
+      "Name": "Значение Точки 1 корректировки Входа (Cor1.point)",
+      "Mode": "RW",
+      "Adr": "22",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-9999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 38,
+      "Name": "Смещение для Точки 1 корректировки Входа (Cor1.offset)",
+      "Mode": "RW",
+      "Adr": "24",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-9999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 39,
+      "Name": "Сброс коррекции Точки 1 (Cor1.clr)",
+      "Mode": "RW",
+      "Adr": "26",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Сброс коррекции Точки 1 (Cor1.clr)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 40,
+      "Name": "Значение Точки 2 корректировки Входа (Cor2.point)",
+      "Mode": "RW",
+      "Adr": "27",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-9999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 41,
+      "Name": "Смещение для Точки 2 корректировки Входа (Cor2.offset)",
+      "Mode": "RW",
+      "Adr": "29",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-9999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 42,
+      "Name": "Сброс коррекции Точки 2 (Cor2.clr)",
+      "Mode": "RW",
+      "Adr": "31",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Сброс коррекции Точки 2 (Cor2.clr)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 43,
+      "Name": "Значение Точки 3 корректировки Входа (Cor3.point)",
+      "Mode": "RW",
+      "Adr": "32",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-9999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 44,
+      "Name": "Смещение для Точки 3 корректировки Входа (Cor3.offset)",
+      "Mode": "RW",
+      "Adr": "34",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-9999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 45,
+      "Name": "Сброс коррекции Точки 3 (Cor3.clr)",
+      "Mode": "RW",
+      "Adr": "36",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Сброс коррекции Точки 3 (Cor3.clr)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 0,
+      "Name": "Вход 2 (In2)",
+      "Mode": "",
+      "Adr": "",
+      "Type": "",
+      "Value": "",
+      "Scale": "",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": true,
+      "IsNotHeader": false
+    },
+    {
+      "Num": 46,
+      "Name": "Тип датчика на Входе (Type)",
+      "Mode": "RW",
+      "Adr": "260",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Тип датчика на Входе (Type)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 0,
+      "Name": "Выход 1 (Out1)",
+      "Mode": "",
+      "Adr": "",
+      "Type": "",
+      "Value": "",
+      "Scale": "",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": true,
+      "IsNotHeader": false
+    },
+    {
+      "Num": 47,
+      "Name": "Уставка регулятора на Выходе (SP)",
+      "Mode": "RW",
+      "Adr": "512",
+      "Type": "real",
+      "Value": "30",
+      "Scale": "0",
+      "Min": "-9999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 48,
+      "Name": "Нижняя граница уставки (SP.Lo)",
+      "Mode": "RW",
+      "Adr": "514",
+      "Type": "real",
+      "Value": "-199.9",
+      "Scale": "0",
+      "Min": "-9999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 49,
+      "Name": "Верхняя граница уставки (SP.Hi)",
+      "Mode": "RW",
+      "Adr": "516",
+      "Type": "real",
+      "Value": "800",
+      "Scale": "0",
+      "Min": "-9999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 50,
+      "Name": "Время диагностики обрыва контура (Lba.t)",
+      "Mode": "RW",
+      "Adr": "520",
+      "Type": "int16",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 51,
+      "Name": "Ширина зоны диагностики обрыва контура (Lba.b)",
+      "Mode": "RW",
+      "Adr": "521",
+      "Type": "real",
+      "Value": "10",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 52,
+      "Name": "Автоматическое восстановление после аварии (A.rec)",
+      "Mode": "RW",
+      "Adr": "523",
+      "Type": "int16",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-1",
+      "Max": "999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 0,
+      "Name": "Выход 1 (Out1) -> ПИД-регулятор",
+      "Mode": "",
+      "Adr": "",
+      "Type": "",
+      "Value": "",
+      "Scale": "",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": true,
+      "IsNotHeader": false
+    },
+    {
+      "Num": 53,
+      "Name": "Полоса пропорциональности ПИД-регулятора (Pid.P)",
+      "Mode": "RW",
+      "Adr": "640",
+      "Type": "real",
+      "Value": "10",
+      "Scale": "0",
+      "Min": "0,001",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 54,
+      "Name": "Интегральная постоянная ПИД-регулятора (Pid.I)",
+      "Mode": "RW",
+      "Adr": "642",
+      "Type": "int16",
+      "Value": "10",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "3999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 55,
+      "Name": "Дифференциальная постоянная ПИД-регулятора (Pid.d)",
+      "Mode": "RW",
+      "Adr": "643",
+      "Type": "int16",
+      "Value": "10",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "3999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 56,
+      "Name": "Период следования управляющих импульсов (Cnt.P)",
+      "Mode": "RW",
+      "Adr": "644",
+      "Type": "int16",
+      "Value": "5",
+      "Scale": "0",
+      "Min": "1",
+      "Max": "250",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 57,
+      "Name": "Скорость изменения уставки (vSP)",
+      "Mode": "RW",
+      "Adr": "645",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "999,9",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 58,
+      "Name": "Зона нечувствительности ПИД-регулятора (d.bnd)",
+      "Mode": "RW",
+      "Adr": "649",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 59,
+      "Name": "Минимальная длительность ШИМ (db.d)",
+      "Mode": "RW",
+      "Adr": "651",
+      "Type": "real",
+      "Value": "0.02",
+      "Scale": "0",
+      "Min": "0,02",
+      "Max": "9,99",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 60,
+      "Name": "Минимальное изменение аналогового ВУ(db.A)",
+      "Mode": "RW",
+      "Adr": "653",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "100",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 61,
+      "Name": "Минимальная выходная мощность (нижний предел) (oL.L)",
+      "Mode": "RW",
+      "Adr": "655",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "100",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 62,
+      "Name": "Максимальная выходная мощность (верхний предел) (oL.H)",
+      "Mode": "RW",
+      "Adr": "657",
+      "Type": "real",
+      "Value": "100",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "100",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 63,
+      "Name": "Максимальная скорость изменения выходной мощности (oL.V)",
+      "Mode": "RW",
+      "Adr": "659",
+      "Type": "real",
+      "Value": "100",
+      "Scale": "0",
+      "Min": "0,2",
+      "Max": "100",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 64,
+      "Name": "Безопасное состояние выхода в режиме Ошибка (Err.P)",
+      "Mode": "RW",
+      "Adr": "661",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "100",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 65,
+      "Name": "Состояние выхода в режиме Стоп (Stp.P)",
+      "Mode": "RW",
+      "Adr": "663",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "100",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 0,
+      "Name": "Выход 1 (Out1) -> Дискретный выход",
+      "Mode": "",
+      "Adr": "",
+      "Type": "",
+      "Value": "",
+      "Scale": "",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": true,
+      "IsNotHeader": false
+    },
+    {
+      "Num": 66,
+      "Name": "Тип логики работы компаратора (Log.D)",
+      "Mode": "RW",
+      "Adr": "544",
+      "Type": "list",
+      "Value": "4",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Тип логики работы компаратора (Log.D)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 67,
+      "Name": "Гистерезис (Hyst)",
+      "Mode": "RW",
+      "Adr": "545",
+      "Type": "real",
+      "Value": "1",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 68,
+      "Name": "Задержка включения компаратора (D.on)",
+      "Mode": "RW",
+      "Adr": "547",
+      "Type": "uint16",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "250",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 69,
+      "Name": "Задержка выключения компаратора (D.off)",
+      "Mode": "RW",
+      "Adr": "548",
+      "Type": "uint16",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "250",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 70,
+      "Name": "Минимальное время удержания компаратора в состоянии вкл (H.on)",
+      "Mode": "RW",
+      "Adr": "549",
+      "Type": "uint16",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "250",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 71,
+      "Name": "Минимальное время удержания компаратора в состоянии выкл (H.off)",
+      "Mode": "RW",
+      "Adr": "550",
+      "Type": "uint16",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "250",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 72,
+      "Name": "Период управляющих импульсов для ручного управления (Cnt.P)",
+      "Mode": "RW",
+      "Adr": "551",
+      "Type": "uint16",
+      "Value": "5",
+      "Scale": "0",
+      "Min": "1",
+      "Max": "250",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 73,
+      "Name": "Безопасное состояние выхода в режиме Ошибка (Err.D)",
+      "Mode": "RW",
+      "Adr": "552",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Безопасное состояние выхода в режиме Ошибка (Err.D)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 74,
+      "Name": "Состояние выхода в режиме Стоп (Stp.D)",
+      "Mode": "RW",
+      "Adr": "553",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Состояние выхода в режиме Стоп (Stp.D)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 0,
+      "Name": "Выход 1 (Out1) -> Дискретный выход -> Сигнализатор (Alrm)",
+      "Mode": "",
+      "Adr": "",
+      "Type": "",
+      "Value": "",
+      "Scale": "",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": true,
+      "IsNotHeader": false
+    },
+    {
+      "Num": 75,
+      "Name": "Тип логики срабатывания компаратора (A.typ)",
+      "Mode": "RW",
+      "Adr": "576",
+      "Type": "list",
+      "Value": "2",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Тип логики срабатывания компаратора (A.typ)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 76,
+      "Name": "Порог срабатывания компаратора (A.bnd)",
+      "Mode": "RW",
+      "Adr": "577",
+      "Type": "real",
+      "Value": "20",
+      "Scale": "0",
+      "Min": "-9999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 77,
+      "Name": "Гистерезис срабатывания компаратора (A.hys)",
+      "Mode": "RW",
+      "Adr": "579",
+      "Type": "real",
+      "Value": "1",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 78,
+      "Name": "Блокировка 1-го срабатывания к выбранному типу логики компаратора (F.blc)",
+      "Mode": "RW",
+      "Adr": "581",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Блокировка 1-го срабатывания к выбранному типу логики компаратора (F.blc)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 0,
+      "Name": "Выход 1 (Out1) -> Аналоговый выход",
+      "Mode": "",
+      "Adr": "",
+      "Type": "",
+      "Value": "",
+      "Scale": "",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": true,
+      "IsNotHeader": false
+    },
+    {
+      "Num": 79,
+      "Name": "Режим работы выхода (Log.A)",
+      "Mode": "RW",
+      "Adr": "608",
+      "Type": "list",
+      "Value": "4",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Режим работы выхода (Log.A)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 80,
+      "Name": "Полоса пропорциональности (Hyst)",
+      "Mode": "RW",
+      "Adr": "609",
+      "Type": "real",
+      "Value": "1",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 81,
+      "Name": "Нижняя граница выходного значения Выхода (Out.L)",
+      "Mode": "RW",
+      "Adr": "611",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-9999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 82,
+      "Name": "Верхняя граница выходного значения Выхода (Out.H)",
+      "Mode": "RW",
+      "Adr": "613",
+      "Type": "real",
+      "Value": "100",
+      "Scale": "0",
+      "Min": "-9999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 83,
+      "Name": "Безопасное состояние выхода в режиме Ошибка (Err.A)",
+      "Mode": "RW",
+      "Adr": "615",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Безопасное состояние выхода в режиме Ошибка (Err.A)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 84,
+      "Name": "Состояние выхода в режиме Стоп (Stp.A)",
+      "Mode": "RW",
+      "Adr": "616",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Состояние выхода в режиме Стоп (Stp.A)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 0,
+      "Name": "Выход 2 (Out2) -> Дискретный выход",
+      "Mode": "",
+      "Adr": "",
+      "Type": "",
+      "Value": "",
+      "Scale": "",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": true,
+      "IsNotHeader": false
+    },
+    {
+      "Num": 85,
+      "Name": "Тип логики работы компаратора (Log.D)",
+      "Mode": "RW",
+      "Adr": "800",
+      "Type": "list",
+      "Value": "3",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Тип логики работы компаратора (Log.D)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 86,
+      "Name": "Тип логики срабатывания компаратора (A.typ)",
+      "Mode": "RW",
+      "Adr": "832",
+      "Type": "list",
+      "Value": "2",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Тип логики срабатывания компаратора (A.typ)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 87,
+      "Name": "Порог срабатывания компаратора (A.bnd)",
+      "Mode": "RW",
+      "Adr": "833",
+      "Type": "real",
+      "Value": "20",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 88,
+      "Name": "Гистерезис срабатывания компаратора (A.hys)",
+      "Mode": "RW",
+      "Adr": "835",
+      "Type": "real",
+      "Value": "1",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 89,
+      "Name": "Блокировка 1-го срабатывания к выбранному типу логики компаратора (F.blc)",
+      "Mode": "RW",
+      "Adr": "837",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Блокировка 1-го срабатывания к выбранному типу логики компаратора (F.blc)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 90,
+      "Name": "Безопасное состояние выхода в режиме Ошибка (Err.D)",
+      "Mode": "RW",
+      "Adr": "808",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Безопасное состояние выхода в режиме Ошибка (Err.D)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 0,
+      "Name": "Выход 2 (Out2) -> Аналоговый выход",
+      "Mode": "",
+      "Adr": "",
+      "Type": "",
+      "Value": "",
+      "Scale": "",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": true,
+      "IsNotHeader": false
+    },
+    {
+      "Num": 91,
+      "Name": "Режим работы выхода (Log.A)",
+      "Mode": "RW",
+      "Adr": "864",
+      "Type": "list",
+      "Value": "3",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Режим работы выхода (Log.A)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 92,
+      "Name": "Нижняя граница выходного значения Выхода (Out.L)",
+      "Mode": "RW",
+      "Adr": "867",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-9999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 93,
+      "Name": "Верхняя граница выходного значения Выхода (Out.H)",
+      "Mode": "RW",
+      "Adr": "869",
+      "Type": "real",
+      "Value": "100",
+      "Scale": "0",
+      "Min": "-9999",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 94,
+      "Name": "Безопасное состояние выхода в режиме Ошибка (Err.A)",
+      "Mode": "RW",
+      "Adr": "871",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Безопасное состояние выхода в режиме Ошибка (Err.A)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 0,
+      "Name": "Автонастройка ПИД-регулятора (APID)",
+      "Mode": "",
+      "Adr": "",
+      "Type": "",
+      "Value": "",
+      "Scale": "",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": true,
+      "IsNotHeader": false
+    },
+    {
+      "Num": 95,
+      "Name": "Автонастройка ПИД-регулятора (Anr)",
+      "Mode": "RW",
+      "Adr": "688",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Автонастройка ПИД-регулятора (Anr)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 0,
+      "Name": "Индикация (Ind)",
+      "Mode": "",
+      "Adr": "",
+      "Type": "",
+      "Value": "",
+      "Scale": "",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": true,
+      "IsNotHeader": false
+    },
+    {
+      "Num": 96,
+      "Name": "Пользовательский экран 1 (Scr1)",
+      "Mode": "RW",
+      "Adr": "1024",
+      "Type": "list",
+      "Value": "1",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Пользовательский экран 1 (Scr1)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 97,
+      "Name": "Пользовательский экран 2 (Scr2)",
+      "Mode": "RW",
+      "Adr": "1025",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Пользовательский экран 2 (Scr2)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 98,
+      "Name": "Пользовательский экран 3 (Scr3)",
+      "Mode": "RW",
+      "Adr": "1026",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Пользовательский экран 3 (Scr3)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 99,
+      "Name": "Пользовательский экран 4 (Scr4)",
+      "Mode": "RW",
+      "Adr": "1027",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Пользовательский экран 4 (Scr4)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 100,
+      "Name": "Пользовательский экран 5 (Scr5)",
+      "Mode": "RW",
+      "Adr": "1028",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Пользовательский экран 5 (Scr5)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 101,
+      "Name": "Пользовательский экран 6 (Scr6)",
+      "Mode": "RW",
+      "Adr": "1029",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Пользовательский экран 6 (Scr6)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 102,
+      "Name": "Настройка вывода параметра мощности (Out.S)",
+      "Mode": "RW",
+      "Adr": "1030",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Настройка вывода параметра мощности (Out.S)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 103,
+      "Name": "Время автоматического возврата из меню настроек (Ret.T)",
+      "Mode": "RW",
+      "Adr": "1031",
+      "Type": "list",
+      "Value": "3",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Время автоматического возврата из меню настроек (Ret.T)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 104,
+      "Name": "Автоматическая смена экранов отображения параметров (Chg.T)",
+      "Mode": "RW",
+      "Adr": "1032",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Автоматическая смена экранов отображения параметров (Chg.T)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 0,
+      "Name": "Modbus RS-485 (r485)",
+      "Mode": "",
+      "Adr": "",
+      "Type": "",
+      "Value": "",
+      "Scale": "",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": true,
+      "IsNotHeader": false
+    },
+    {
+      "Num": 105,
+      "Name": "Протокол связи (Prot)",
+      "Mode": "RW",
+      "Adr": "1280",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Протокол связи (Prot)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 106,
+      "Name": "Адрес прибора в сети Modbus (Addr)",
+      "Mode": "RW",
+      "Adr": "1281",
+      "Type": "uint16",
+      "Value": "16",
+      "Scale": "0",
+      "Min": "1",
+      "Max": "247",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 107,
+      "Name": "Скорость обмена данными (Baud)",
+      "Mode": "RW",
+      "Adr": "1282",
+      "Type": "list",
+      "Value": "2",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Скорость обмена данными (Baud)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 108,
+      "Name": "Формат посылки данных (Dps)",
+      "Mode": "RW",
+      "Adr": "1283",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Формат посылки данных (Dps)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 109,
+      "Name": "Задержка ответа от прибора (Idle)",
+      "Mode": "RW",
+      "Adr": "1284",
+      "Type": "uint16",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "20",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 110,
+      "Name": "Порядок байт в регистре (B.ord)",
+      "Mode": "RW",
+      "Adr": "1285",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Порядок байт в регистре (B.ord)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 111,
+      "Name": "Применение текущих настроек порта RS-485 (Apply)",
+      "Mode": "RW",
+      "Adr": "1286",
+      "Type": "uint16",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "1",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 0,
+      "Name": "Меню скрытых параметров (SCRT)",
+      "Mode": "",
+      "Adr": "",
+      "Type": "",
+      "Value": "",
+      "Scale": "",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": true,
+      "IsNotHeader": false
+    },
+    {
+      "Num": 112,
+      "Name": "Пароль доступа к меню (PASS)",
+      "Mode": "RW",
+      "Adr": "2048",
+      "Type": "int16",
+      "Value": "100",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "9999",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 113,
+      "Name": "Защита от редактирования значений переменных (Prt.E)",
+      "Mode": "RW",
+      "Adr": "2049",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Защита от редактирования значений переменных (Prt.E)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 114,
+      "Name": "Включение атрибутов скрытых параметров (Atr.E)",
+      "Mode": "RW",
+      "Adr": "2050",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Включение атрибутов скрытых параметров (Atr.E)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 115,
+      "Name": "Отключение ДХС (Cjs.E)",
+      "Mode": "RW",
+      "Adr": "2051",
+      "Type": "list",
+      "Value": "1",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Отключение ДХС (Cjs.E)",
+      "IsHeader": false,
+      "IsNotHeader": true
+    }
+  ],
+  "ConnectionSettings_PortName": "",
+  "ConnectionSettings_BaudRate": "",
+  "ConnectionSettings_Parity": "",
+  "ConnectionSettings_Address": "",
+  "ConnectionSettings_TcpIp": "",
+  "ConnectionSettings_TcpPort": "",
+  "ConnectionSettings_WriteSingleRegister": false,
+  "ConnectionSettings_ChangeRegisterSequence": false,
+  "ConnectionSettings_GroupRequest": true,
+  "ListDefinitions": [
+    {
+      "Name": "Режим работы прибора (Ctrl)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "Stop"
+        },
+        {
+          "Value": 1,
+          "Description": "Run"
+        },
+        {
+          "Value": 2,
+          "Description": "Man"
+        }
+      ]
+    },
+    {
+      "Name": "Тип датчика на Входе (Type)",
+      "Items": [
+        {
+          "Value": 21,
+          "Description": "ТХК(L)"
+        },
+        {
+          "Value": 1,
+          "Description": "Cu50"
+        },
+        {
+          "Value": 2,
+          "Description": "Cu53"
+        },
+        {
+          "Value": 3,
+          "Description": "Cu100"
+        },
+        {
+          "Value": 4,
+          "Description": "Cu500"
+        },
+        {
+          "Value": 5,
+          "Description": "Cu1000"
+        },
+        {
+          "Value": 6,
+          "Description": "50M"
+        },
+        {
+          "Value": 7,
+          "Description": "100M"
+        },
+        {
+          "Value": 8,
+          "Description": "500M"
+        },
+        {
+          "Value": 9,
+          "Description": "1000M"
+        },
+        {
+          "Value": 10,
+          "Description": "Pt50"
+        },
+        {
+          "Value": 11,
+          "Description": "Pt100"
+        },
+        {
+          "Value": 12,
+          "Description": "Pt500"
+        },
+        {
+          "Value": 13,
+          "Description": "Pt1000"
+        },
+        {
+          "Value": 14,
+          "Description": "50П"
+        },
+        {
+          "Value": 15,
+          "Description": "100П"
+        },
+        {
+          "Value": 16,
+          "Description": "500П"
+        },
+        {
+          "Value": 17,
+          "Description": "1000П"
+        },
+        {
+          "Value": 18,
+          "Description": "100Н"
+        },
+        {
+          "Value": 19,
+          "Description": "500Н"
+        },
+        {
+          "Value": 20,
+          "Description": "1000Н"
+        },
+        {
+          "Value": 22,
+          "Description": "ТХА(K)"
+        },
+        {
+          "Value": 23,
+          "Description": "ТЖК(J)"
+        },
+        {
+          "Value": 24,
+          "Description": "ТНН(N)"
+        },
+        {
+          "Value": 25,
+          "Description": "ТМК(T)"
+        },
+        {
+          "Value": 26,
+          "Description": "ТПП(S)"
+        },
+        {
+          "Value": 27,
+          "Description": "ТПП(R)"
+        },
+        {
+          "Value": 28,
+          "Description": "ТПР(B)"
+        },
+        {
+          "Value": 29,
+          "Description": "ТВР(A-1)"
+        },
+        {
+          "Value": 30,
+          "Description": "ТВР(A-2)"
+        },
+        {
+          "Value": 31,
+          "Description": "ТВР(A-3)"
+        },
+        {
+          "Value": 32,
+          "Description": "Typ.L (DIN 43710)"
+        },
+        {
+          "Value": 33,
+          "Description": "ТХКн(Е)"
+        },
+        {
+          "Value": 34,
+          "Description": "Пирометр РК-15"
+        },
+        {
+          "Value": 35,
+          "Description": "Пирометр РК-20"
+        },
+        {
+          "Value": 36,
+          "Description": "Пирометр РС-20"
+        },
+        {
+          "Value": 37,
+          "Description": "Пирометр РС-25"
+        },
+        {
+          "Value": 38,
+          "Description": "Ток 0..5 мА"
+        },
+        {
+          "Value": 39,
+          "Description": "Ток 0..20 мА"
+        },
+        {
+          "Value": 40,
+          "Description": "Ток 4..20 мА"
+        },
+        {
+          "Value": 41,
+          "Description": "Напряжение -50..50 мВ"
+        },
+        {
+          "Value": 42,
+          "Description": "Напряжение 0..1 В"
+        },
+        {
+          "Value": 43,
+          "Description": "Напряжение 0..5 В"
+        },
+        {
+          "Value": 44,
+          "Description": "Напряжение 0..10 В"
+        },
+        {
+          "Value": 0,
+          "Description": "OFF"
+        }
+      ]
+    },
+    {
+      "Name": "Положение десятичной точки (Dpt)",
+      "Items": [
+        {
+          "Value": 1,
+          "Description": "1"
+        },
+        {
+          "Value": 0,
+          "Description": "0"
+        },
+        {
+          "Value": 2,
+          "Description": "2"
+        },
+        {
+          "Value": 3,
+          "Description": "3"
+        },
+        {
+          "Value": 4,
+          "Description": "AUTO"
+        }
+      ]
+    },
+    {
+      "Name": "Тип функции для измерителя (Func)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "OFF"
+        },
+        {
+          "Value": 1,
+          "Description": "SQRT"
+        },
+        {
+          "Value": 2,
+          "Description": "SQRI"
+        }
+      ]
+    },
+    {
+      "Name": "Подключение искробарьера (Barr)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "OFF"
+        },
+        {
+          "Value": 1,
+          "Description": "ON"
+        }
+      ]
+    },
+    {
+      "Name": "Сброс коррекции Точки 1 (Cor1.clr)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "OFF"
+        },
+        {
+          "Value": 1,
+          "Description": "Применить"
+        }
+      ]
+    },
+    {
+      "Name": "Сброс коррекции Точки 2 (Cor2.clr)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "OFF"
+        },
+        {
+          "Value": 1,
+          "Description": "Применить"
+        }
+      ]
+    },
+    {
+      "Name": "Сброс коррекции Точки 3 (Cor3.clr)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "OFF"
+        },
+        {
+          "Value": 1,
+          "Description": "Применить"
+        }
+      ]
+    },
+    {
+      "Name": "Тип логики работы компаратора (Log.D)",
+      "Items": [
+        {
+          "Value": 4,
+          "Description": "H.PID"
+        },
+        {
+          "Value": 1,
+          "Description": "HEAt"
+        },
+        {
+          "Value": 2,
+          "Description": "Cool"
+        },
+        {
+          "Value": 3,
+          "Description": "ALrM"
+        },
+        {
+          "Value": 5,
+          "Description": "C.PID"
+        },
+        {
+          "Value": 0,
+          "Description": "OFF"
+        }
+      ]
+    },
+    {
+      "Name": "Безопасное состояние выхода в режиме Ошибка (Err.D)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "OFF"
+        },
+        {
+          "Value": 1,
+          "Description": "ON"
+        }
+      ]
+    },
+    {
+      "Name": "Состояние выхода в режиме Стоп (Stp.D)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "OFF"
+        },
+        {
+          "Value": 1,
+          "Description": "ON"
+        }
+      ]
+    },
+    {
+      "Name": "Тип логики срабатывания компаратора (A.typ)",
+      "Items": [
+        {
+          "Value": 2,
+          "Description": "SP.U"
+        },
+        {
+          "Value": 1,
+          "Description": "SP.П"
+        },
+        {
+          "Value": 3,
+          "Description": "SP.Hi"
+        },
+        {
+          "Value": 4,
+          "Description": "SP.Lo"
+        },
+        {
+          "Value": 5,
+          "Description": "0.П "
+        },
+        {
+          "Value": 6,
+          "Description": "0.U"
+        },
+        {
+          "Value": 7,
+          "Description": "0.Hi"
+        },
+        {
+          "Value": 8,
+          "Description": "0.Lo"
+        },
+        {
+          "Value": 0,
+          "Description": "OFF"
+        }
+      ]
+    },
+    {
+      "Name": "Блокировка 1-го срабатывания к выбранному типу логики компаратора (F.blc)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "OFF"
+        },
+        {
+          "Value": 1,
+          "Description": "ON"
+        }
+      ]
+    },
+    {
+      "Name": "Режим работы выхода (Log.A)",
+      "Items": [
+        {
+          "Value": 4,
+          "Description": "H.PID"
+        },
+        {
+          "Value": 1,
+          "Description": "HEAT"
+        },
+        {
+          "Value": 2,
+          "Description": "CooL"
+        },
+        {
+          "Value": 3,
+          "Description": "Conv"
+        },
+        {
+          "Value": 5,
+          "Description": "C.PID"
+        },
+        {
+          "Value": 0,
+          "Description": "OFF"
+        }
+      ]
+    },
+    {
+      "Name": "Безопасное состояние выхода в режиме Ошибка (Err.A)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "LO"
+        },
+        {
+          "Value": 1,
+          "Description": "HI"
+        }
+      ]
+    },
+    {
+      "Name": "Состояние выхода в режиме Стоп (Stp.A)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "LO"
+        },
+        {
+          "Value": 1,
+          "Description": "HI"
+        }
+      ]
+    },
+    {
+      "Name": "Автонастройка ПИД-регулятора (Anr)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "OFF"
+        },
+        {
+          "Value": 1,
+          "Description": "Run"
+        },
+        {
+          "Value": 2,
+          "Description": "Good"
+        },
+        {
+          "Value": 3,
+          "Description": "Fail"
+        }
+      ]
+    },
+    {
+      "Name": "Пользовательский экран 1 (Scr1)",
+      "Items": [
+        {
+          "Value": 1,
+          "Description": "P1.S1"
+        },
+        {
+          "Value": 2,
+          "Description": "P1.O1"
+        },
+        {
+          "Value": 3,
+          "Description": "P1.D1"
+        },
+        {
+          "Value": 5,
+          "Description": "F1.S1"
+        },
+        {
+          "Value": 6,
+          "Description": "F1.O1"
+        },
+        {
+          "Value": 7,
+          "Description": "F1.D1"
+        },
+        {
+          "Value": 17,
+          "Description": "P1.P2"
+        },
+        {
+          "Value": 19,
+          "Description": "F1.P2"
+        }
+      ]
+    },
+    {
+      "Name": "Пользовательский экран 2 (Scr2)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "OFF"
+        },
+        {
+          "Value": 1,
+          "Description": "P1.S1"
+        },
+        {
+          "Value": 2,
+          "Description": "P1.O1"
+        },
+        {
+          "Value": 3,
+          "Description": "P1.D1"
+        },
+        {
+          "Value": 5,
+          "Description": "F1.S1"
+        },
+        {
+          "Value": 6,
+          "Description": "F1.O1"
+        },
+        {
+          "Value": 7,
+          "Description": "F1.D1"
+        },
+        {
+          "Value": 17,
+          "Description": "P1.P2"
+        },
+        {
+          "Value": 19,
+          "Description": "F1.P2"
+        }
+      ]
+    },
+    {
+      "Name": "Пользовательский экран 3 (Scr3)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "OFF"
+        },
+        {
+          "Value": 1,
+          "Description": "P1.S1"
+        },
+        {
+          "Value": 2,
+          "Description": "P1.O1"
+        },
+        {
+          "Value": 3,
+          "Description": "P1.D1"
+        },
+        {
+          "Value": 5,
+          "Description": "F1.S1"
+        },
+        {
+          "Value": 6,
+          "Description": "F1.O1"
+        },
+        {
+          "Value": 7,
+          "Description": "F1.D1"
+        },
+        {
+          "Value": 17,
+          "Description": "P1.P2"
+        },
+        {
+          "Value": 19,
+          "Description": "F1.P2"
+        }
+      ]
+    },
+    {
+      "Name": "Пользовательский экран 4 (Scr4)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "OFF"
+        },
+        {
+          "Value": 1,
+          "Description": "P1.S1"
+        },
+        {
+          "Value": 2,
+          "Description": "P1.O1"
+        },
+        {
+          "Value": 3,
+          "Description": "P1.D1"
+        },
+        {
+          "Value": 5,
+          "Description": "F1.S1"
+        },
+        {
+          "Value": 6,
+          "Description": "F1.O1"
+        },
+        {
+          "Value": 7,
+          "Description": "F1.D1"
+        },
+        {
+          "Value": 17,
+          "Description": "P1.P2"
+        },
+        {
+          "Value": 19,
+          "Description": "F1.P2"
+        }
+      ]
+    },
+    {
+      "Name": "Пользовательский экран 5 (Scr5)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "OFF"
+        },
+        {
+          "Value": 1,
+          "Description": "P1.S1"
+        },
+        {
+          "Value": 2,
+          "Description": "P1.O1"
+        },
+        {
+          "Value": 3,
+          "Description": "P1.D1"
+        },
+        {
+          "Value": 5,
+          "Description": "F1.S1"
+        },
+        {
+          "Value": 6,
+          "Description": "F1.O1"
+        },
+        {
+          "Value": 7,
+          "Description": "F1.D1"
+        },
+        {
+          "Value": 17,
+          "Description": "P1.P2"
+        },
+        {
+          "Value": 19,
+          "Description": "F1.P2"
+        }
+      ]
+    },
+    {
+      "Name": "Пользовательский экран 6 (Scr6)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "OFF"
+        },
+        {
+          "Value": 1,
+          "Description": "P1.S1"
+        },
+        {
+          "Value": 2,
+          "Description": "P1.O1"
+        },
+        {
+          "Value": 3,
+          "Description": "P1.D1"
+        },
+        {
+          "Value": 5,
+          "Description": "F1.S1"
+        },
+        {
+          "Value": 6,
+          "Description": "F1.O1"
+        },
+        {
+          "Value": 7,
+          "Description": "F1.D1"
+        },
+        {
+          "Value": 17,
+          "Description": "P1.P2"
+        },
+        {
+          "Value": 15,
+          "Description": "F1.P2"
+        }
+      ]
+    },
+    {
+      "Name": "Настройка вывода параметра мощности (Out.S)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "PErC"
+        },
+        {
+          "Value": 1,
+          "Description": "dAC"
+        }
+      ]
+    },
+    {
+      "Name": "Время автоматического возврата из меню настроек (Ret.T)",
+      "Items": [
+        {
+          "Value": 3,
+          "Description": "30"
+        },
+        {
+          "Value": 1,
+          "Description": "5"
+        },
+        {
+          "Value": 2,
+          "Description": "10"
+        },
+        {
+          "Value": 4,
+          "Description": "60"
+        },
+        {
+          "Value": 0,
+          "Description": "OFF"
+        }
+      ]
+    },
+    {
+      "Name": "Автоматическая смена экранов отображения параметров (Chg.T)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "OFF"
+        },
+        {
+          "Value": 1,
+          "Description": "5"
+        },
+        {
+          "Value": 2,
+          "Description": "10"
+        },
+        {
+          "Value": 3,
+          "Description": "30"
+        },
+        {
+          "Value": 4,
+          "Description": "60"
+        },
+        {
+          "Value": 5,
+          "Description": "120"
+        }
+      ]
+    },
+    {
+      "Name": "Протокол связи (Prot)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "RTU"
+        },
+        {
+          "Value": 1,
+          "Description": "ASCII"
+        }
+      ]
+    },
+    {
+      "Name": "Скорость обмена данными (Baud)",
+      "Items": [
+        {
+          "Value": 2,
+          "Description": "9.6"
+        },
+        {
+          "Value": 0,
+          "Description": "2.4"
+        },
+        {
+          "Value": 1,
+          "Description": "4.8"
+        },
+        {
+          "Value": 3,
+          "Description": "14.4"
+        },
+        {
+          "Value": 4,
+          "Description": "19.2"
+        },
+        {
+          "Value": 5,
+          "Description": "28.8"
+        },
+        {
+          "Value": 6,
+          "Description": "38.4"
+        },
+        {
+          "Value": 7,
+          "Description": "57.6"
+        },
+        {
+          "Value": 8,
+          "Description": "115.2"
+        }
+      ]
+    },
+    {
+      "Name": "Формат посылки данных (Dps)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "8N1"
+        },
+        {
+          "Value": 1,
+          "Description": "8O1"
+        },
+        {
+          "Value": 2,
+          "Description": "8E1"
+        },
+        {
+          "Value": 3,
+          "Description": "8N2"
+        },
+        {
+          "Value": 4,
+          "Description": "8O2"
+        },
+        {
+          "Value": 5,
+          "Description": "8E2"
+        },
+        {
+          "Value": 6,
+          "Description": "7O1"
+        },
+        {
+          "Value": 7,
+          "Description": "7E1"
+        },
+        {
+          "Value": 8,
+          "Description": "7O2"
+        },
+        {
+          "Value": 9,
+          "Description": "7E2"
+        }
+      ]
+    },
+    {
+      "Name": "Порядок байт в регистре (B.ord)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "MSB"
+        },
+        {
+          "Value": 1,
+          "Description": "LSB"
+        }
+      ]
+    },
+    {
+      "Name": "Защита от редактирования значений переменных (Prt.E)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "OFF"
+        },
+        {
+          "Value": 1,
+          "Description": "SETT"
+        },
+        {
+          "Value": 2,
+          "Description": "ALL"
+        },
+        {
+          "Value": 3,
+          "Description": "HIDE"
+        }
+      ]
+    },
+    {
+      "Name": "Включение атрибутов скрытых параметров (Atr.E)",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "OFF"
+        },
+        {
+          "Value": 1,
+          "Description": "ON"
+        },
+        {
+          "Value": 2,
+          "Description": "EDIT"
+        }
+      ]
+    },
+    {
+      "Name": "Отключение ДХС (Cjs.E)",
+      "Items": [
+        {
+          "Value": 1,
+          "Description": "ON"
+        },
+        {
+          "Value": 0,
+          "Description": "OFF"
+        }
+      ]
+    }
+  ]
+}
