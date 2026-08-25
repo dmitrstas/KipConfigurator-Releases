@@ -1,0 +1,1550 @@
+{
+  "DeviceName": "Индикатор СМИ2-М",
+  "Data": [
+    {
+      "Num": 0,
+      "Name": "Настройки RS485",
+      "Mode": "",
+      "Adr": "",
+      "Type": "",
+      "Value": "",
+      "Scale": "",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": true,
+      "IsNotHeader": false
+    },
+    {
+      "Num": 0,
+      "Name": "Скорость, бит/с",
+      "Mode": "RW",
+      "Adr": "521",
+      "Type": "list",
+      "Value": "5",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Скорость",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 1,
+      "Name": "СтопБит",
+      "Mode": "RW",
+      "Adr": "523",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Стоп-бит",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 2,
+      "Name": "Четность",
+      "Mode": "RW",
+      "Adr": "524",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Четность",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 3,
+      "Name": "Конец кадра",
+      "Mode": "RW",
+      "Adr": "528",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "КонецКадра",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 0,
+      "Name": "Индикатор",
+      "Mode": "",
+      "Adr": "",
+      "Type": "",
+      "Value": "",
+      "Scale": "",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": true,
+      "IsNotHeader": false
+    },
+    {
+      "Num": 4,
+      "Name": "Slave-Master-Spy",
+      "Mode": "RW",
+      "Adr": "4000",
+      "Type": "uint16",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "2",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 5,
+      "Name": "Системная команда",
+      "Mode": "RW",
+      "Adr": "5000",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Сохранение",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 0,
+      "Name": "Настроки Modbus Master",
+      "Mode": "",
+      "Adr": "",
+      "Type": "",
+      "Value": "",
+      "Scale": "",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": true,
+      "IsNotHeader": false
+    },
+    {
+      "Num": 6,
+      "Name": "Протокол",
+      "Mode": "RW",
+      "Adr": "4020",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Протокол",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 7,
+      "Name": "Адрес устройства",
+      "Mode": "RW",
+      "Adr": "4021",
+      "Type": "uint16",
+      "Value": "1",
+      "Scale": "0",
+      "Min": "1",
+      "Max": "255",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 8,
+      "Name": "Таймаут ответа, мс",
+      "Mode": "RW",
+      "Adr": "4022",
+      "Type": "uint16",
+      "Value": "1000",
+      "Scale": "0",
+      "Min": "300",
+      "Max": "10000",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 9,
+      "Name": "Функция",
+      "Mode": "RW",
+      "Adr": "4023",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Ф-я Modbus Mst",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 10,
+      "Name": "Адрес регистра",
+      "Mode": "RW",
+      "Adr": "4024",
+      "Type": "uint16",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 11,
+      "Name": "Период опроса, мс",
+      "Mode": "RW",
+      "Adr": "4025",
+      "Type": "uint16",
+      "Value": "200",
+      "Scale": "0",
+      "Min": "100",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 0,
+      "Name": "Настроки Modbus Spy",
+      "Mode": "",
+      "Adr": "",
+      "Type": "",
+      "Value": "",
+      "Scale": "",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": true,
+      "IsNotHeader": false
+    },
+    {
+      "Num": 12,
+      "Name": "Адрес устройства",
+      "Mode": "RW",
+      "Adr": "4040",
+      "Type": "uint16",
+      "Value": "1",
+      "Scale": "0",
+      "Min": "1",
+      "Max": "255",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 13,
+      "Name": "Функция",
+      "Mode": "RW",
+      "Adr": "4041",
+      "Type": "list",
+      "Value": "1",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Ф-я Modbus Spy",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 14,
+      "Name": "Адрес регистра",
+      "Mode": "RW",
+      "Adr": "4042",
+      "Type": "uint16",
+      "Value": "1",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 0,
+      "Name": "Общие настройки Modbus",
+      "Mode": "",
+      "Adr": "",
+      "Type": "",
+      "Value": "",
+      "Scale": "",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": true,
+      "IsNotHeader": false
+    },
+    {
+      "Num": 15,
+      "Name": "Slave ID индикатора (адрес)",
+      "Mode": "RW",
+      "Adr": "527",
+      "Type": "uint16",
+      "Value": "1",
+      "Scale": "0",
+      "Min": "1",
+      "Max": "255",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 16,
+      "Name": "Порядок байт",
+      "Mode": "RW",
+      "Adr": "4061",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "ПорядокБайт",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 17,
+      "Name": "Таймаут безопасного состоян, с",
+      "Mode": "RW",
+      "Adr": "4062",
+      "Type": "uint16",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "60",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 18,
+      "Name": "Надпись при обрыве связи",
+      "Mode": "RW",
+      "Adr": "4063",
+      "Type": "uint32",
+      "Value": "1883258950",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "4294967295",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 19,
+      "Name": "Надпись при обрыве связи",
+      "Mode": "RW",
+      "Adr": "4063",
+      "Type": "hex32",
+      "Value": "0x70404046",
+      "Scale": "0",
+      "Min": "0x0",
+      "Max": "0xFFFFFFFF",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 20,
+      "Name": "Цвет безопасного состояния",
+      "Mode": "RW",
+      "Adr": "4065",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Цвет",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 21,
+      "Name": "Мигание безопасного состояния",
+      "Mode": "RW",
+      "Adr": "4066",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Вкл/Откл",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 0,
+      "Name": "Настройки индикатора",
+      "Mode": "",
+      "Adr": "",
+      "Type": "",
+      "Value": "",
+      "Scale": "",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": true,
+      "IsNotHeader": false
+    },
+    {
+      "Num": 22,
+      "Name": "Цвет",
+      "Mode": "RW",
+      "Adr": "4100",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Цвет",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 23,
+      "Name": "Яркость, %",
+      "Mode": "RW",
+      "Adr": "4101",
+      "Type": "uint16",
+      "Value": "75",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "100",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 24,
+      "Name": "Мигание",
+      "Mode": "RW",
+      "Adr": "4102",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Вкл/Откл",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 25,
+      "Name": "Период мигания, мс",
+      "Mode": "RW",
+      "Adr": "4103",
+      "Type": "uint16",
+      "Value": "1000",
+      "Scale": "0",
+      "Min": "250",
+      "Max": "3000",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 26,
+      "Name": "Число ведущих нулей",
+      "Mode": "RW",
+      "Adr": "4104",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "ЧислоНулей",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 27,
+      "Name": "Период сдвига бег. строки, мс",
+      "Mode": "RW",
+      "Adr": "4105",
+      "Type": "uint16",
+      "Value": "100",
+      "Scale": "0",
+      "Min": "100",
+      "Max": "1500",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 28,
+      "Name": "Режим отображения",
+      "Mode": "RW",
+      "Adr": "4106",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "РежОтображ",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 29,
+      "Name": "Тип переменной",
+      "Mode": "RW",
+      "Adr": "4107",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "ТипПеременной",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 30,
+      "Name": "Положение десятичной точки",
+      "Mode": "RW",
+      "Adr": "4108",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "ПоложДесТочки",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 31,
+      "Name": "Коэффициент сдвига",
+      "Mode": "RW",
+      "Adr": "4109",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-999,0",
+      "Max": "9999,0",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 32,
+      "Name": "Коэффициент наклона",
+      "Mode": "RW",
+      "Adr": "4111",
+      "Type": "real",
+      "Value": "1",
+      "Scale": "0",
+      "Min": "-999,0",
+      "Max": "9999,0",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 0,
+      "Name": "Оперативные значения",
+      "Mode": "",
+      "Adr": "",
+      "Type": "",
+      "Value": "",
+      "Scale": "",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": true,
+      "IsNotHeader": false
+    },
+    {
+      "Num": 33,
+      "Name": "Регистр INT",
+      "Mode": "RW",
+      "Adr": "4200",
+      "Type": "int16",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-32768",
+      "Max": "32767",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 34,
+      "Name": "Регистр UINT",
+      "Mode": "RW",
+      "Adr": "4201",
+      "Type": "uint16",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 35,
+      "Name": "Регистр DINT",
+      "Mode": "RW",
+      "Adr": "4202",
+      "Type": "int32",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-2147483648",
+      "Max": "2147483647",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 36,
+      "Name": "Регистр UDINT",
+      "Mode": "RW",
+      "Adr": "4204",
+      "Type": "uint32",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "4294967295",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 37,
+      "Name": "Регистр REAL",
+      "Mode": "RW",
+      "Adr": "4206",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-3,4028235e+38",
+      "Max": "3,4028235e+38",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 38,
+      "Name": "Регистр STRING",
+      "Mode": "RW",
+      "Adr": "4208",
+      "Type": "string",
+      "Value": "0",
+      "Scale": "32",
+      "Min": "0",
+      "Max": "0",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 39,
+      "Name": "Длина строки",
+      "Mode": "RW",
+      "Adr": "4249",
+      "Type": "uint16",
+      "Value": "4",
+      "Scale": "0",
+      "Min": "4",
+      "Max": "32",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 40,
+      "Name": "Портрет",
+      "Mode": "RW",
+      "Adr": "4250",
+      "Type": "uint32",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "4294967295",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 41,
+      "Name": "Портрет",
+      "Mode": "RW",
+      "Adr": "4250",
+      "Type": "hex32",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0x0",
+      "Max": "0xFFFFFFFF",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 42,
+      "Name": "Время",
+      "Mode": "RW",
+      "Adr": "4252",
+      "Type": "uint32",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "4294967295",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 0,
+      "Name": "Встроенная логика",
+      "Mode": "",
+      "Adr": "",
+      "Type": "",
+      "Value": "",
+      "Scale": "",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": true,
+      "IsNotHeader": false
+    },
+    {
+      "Num": 43,
+      "Name": "Встроенная логика",
+      "Mode": "RW",
+      "Adr": "4300",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Вкл/Откл",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 0,
+      "Name": "Логика, зона 5",
+      "Mode": "",
+      "Adr": "",
+      "Type": "",
+      "Value": "",
+      "Scale": "",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": true,
+      "IsNotHeader": false
+    },
+    {
+      "Num": 44,
+      "Name": "Цвет",
+      "Mode": "RW",
+      "Adr": "4301",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Цвет",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 45,
+      "Name": "Мигание",
+      "Mode": "RW",
+      "Adr": "4302",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Вкл/Откл",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 0,
+      "Name": "Логика, зона 1",
+      "Mode": "",
+      "Adr": "",
+      "Type": "",
+      "Value": "",
+      "Scale": "",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": true,
+      "IsNotHeader": false
+    },
+    {
+      "Num": 46,
+      "Name": "Задействовать",
+      "Mode": "RW",
+      "Adr": "4310",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Вкл/Откл",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 47,
+      "Name": "Верхняя граница",
+      "Mode": "RW",
+      "Adr": "4311",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-999,0",
+      "Max": "9999,0",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 48,
+      "Name": "Гистерезис",
+      "Mode": "RW",
+      "Adr": "4313",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "9999,0",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 49,
+      "Name": "Цвет",
+      "Mode": "RW",
+      "Adr": "4315",
+      "Type": "list",
+      "Value": "1",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Цвет",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 50,
+      "Name": "Мигание",
+      "Mode": "RW",
+      "Adr": "4316",
+      "Type": "list",
+      "Value": "1",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Вкл/Откл",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 0,
+      "Name": "Логика, зона 2",
+      "Mode": "",
+      "Adr": "",
+      "Type": "",
+      "Value": "",
+      "Scale": "",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": true,
+      "IsNotHeader": false
+    },
+    {
+      "Num": 51,
+      "Name": "Задействовать",
+      "Mode": "RW",
+      "Adr": "4320",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Вкл/Откл",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 52,
+      "Name": "Верхняя граница",
+      "Mode": "RW",
+      "Adr": "4321",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-999,0",
+      "Max": "9999,0",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 53,
+      "Name": "Гистерезис",
+      "Mode": "RW",
+      "Adr": "4323",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "9999,0",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 54,
+      "Name": "Цвет",
+      "Mode": "RW",
+      "Adr": "4325",
+      "Type": "list",
+      "Value": "1",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Цвет",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 55,
+      "Name": "Мигание",
+      "Mode": "RW",
+      "Adr": "4326",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Вкл/Откл",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 0,
+      "Name": "Логика, зона 3",
+      "Mode": "",
+      "Adr": "",
+      "Type": "",
+      "Value": "",
+      "Scale": "",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": true,
+      "IsNotHeader": false
+    },
+    {
+      "Num": 56,
+      "Name": "Задействовать",
+      "Mode": "RW",
+      "Adr": "4330",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Вкл/Откл",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 57,
+      "Name": "Верхняя граница",
+      "Mode": "RW",
+      "Adr": "4331",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-999,0",
+      "Max": "9999,0",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 58,
+      "Name": "Гистерезис",
+      "Mode": "RW",
+      "Adr": "4333",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "9999,0",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 59,
+      "Name": "Цвет",
+      "Mode": "RW",
+      "Adr": "4335",
+      "Type": "list",
+      "Value": "1",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Цвет",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 60,
+      "Name": "Мигание",
+      "Mode": "RW",
+      "Adr": "4336",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Вкл/Откл",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 0,
+      "Name": "Логика, зона 4",
+      "Mode": "",
+      "Adr": "",
+      "Type": "",
+      "Value": "",
+      "Scale": "",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": true,
+      "IsNotHeader": false
+    },
+    {
+      "Num": 61,
+      "Name": "Задействовать",
+      "Mode": "RW",
+      "Adr": "4340",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Вкл/Откл",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 62,
+      "Name": "Верхняя граница",
+      "Mode": "RW",
+      "Adr": "4341",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "-999,0",
+      "Max": "9999,0",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 63,
+      "Name": "Гистерезис",
+      "Mode": "RW",
+      "Adr": "4343",
+      "Type": "real",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "9999,0",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 64,
+      "Name": "Цвет",
+      "Mode": "RW",
+      "Adr": "4345",
+      "Type": "list",
+      "Value": "1",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Цвет",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 65,
+      "Name": "Мигание",
+      "Mode": "RW",
+      "Adr": "4346",
+      "Type": "list",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "Вкл/Откл",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 0,
+      "Name": "Статус прибора",
+      "Mode": "",
+      "Adr": "",
+      "Type": "",
+      "Value": "",
+      "Scale": "",
+      "Min": "",
+      "Max": "",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": true,
+      "IsNotHeader": false
+    },
+    {
+      "Num": 66,
+      "Name": "Статус",
+      "Mode": "R",
+      "Adr": "61620",
+      "Type": "uint32",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "4294967295",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    },
+    {
+      "Num": 67,
+      "Name": "Остаток Flash, %",
+      "Mode": "R",
+      "Adr": "61624",
+      "Type": "uint16",
+      "Value": "0",
+      "Scale": "0",
+      "Min": "0",
+      "Max": "65535",
+      "Info": "",
+      "ListName": "",
+      "IsHeader": false,
+      "IsNotHeader": true
+    }
+  ],
+  "ConnectionSettings_PortName": "",
+  "ConnectionSettings_BaudRate": "",
+  "ConnectionSettings_Parity": "",
+  "ConnectionSettings_Address": "",
+  "ConnectionSettings_TcpIp": "",
+  "ConnectionSettings_TcpPort": "",
+  "ConnectionSettings_WriteSingleRegister": false,
+  "ConnectionSettings_ChangeRegisterSequence": false,
+  "ConnectionSettings_GroupRequest": true,
+  "ListDefinitions": [
+    {
+      "Name": "Скорость",
+      "Items": [
+        {
+          "Value": 3,
+          "Description": "2400"
+        },
+        {
+          "Value": 4,
+          "Description": "4800"
+        },
+        {
+          "Value": 5,
+          "Description": "9600"
+        },
+        {
+          "Value": 6,
+          "Description": "14400"
+        },
+        {
+          "Value": 7,
+          "Description": "19200"
+        },
+        {
+          "Value": 8,
+          "Description": "38400"
+        },
+        {
+          "Value": 9,
+          "Description": "57600"
+        },
+        {
+          "Value": 10,
+          "Description": "115200"
+        }
+      ]
+    },
+    {
+      "Name": "Стоп-бит",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "1 стоп бит"
+        },
+        {
+          "Value": 1,
+          "Description": "2 стоп бит"
+        }
+      ]
+    },
+    {
+      "Name": "Четность",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "Нет"
+        },
+        {
+          "Value": 4,
+          "Description": "Чет"
+        },
+        {
+          "Value": 2,
+          "Description": "Нечет"
+        }
+      ]
+    },
+    {
+      "Name": "КонецКадра",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "IDLE"
+        },
+        {
+          "Value": 1,
+          "Description": "3.5 Char"
+        }
+      ]
+    },
+    {
+      "Name": "Режим S/M/S",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "Slave"
+        },
+        {
+          "Value": 1,
+          "Description": "Master"
+        },
+        {
+          "Value": 2,
+          "Description": "Spy"
+        }
+      ]
+    },
+    {
+      "Name": "Протокол",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "RTU"
+        },
+        {
+          "Value": 1,
+          "Description": "ASCII"
+        }
+      ]
+    },
+    {
+      "Name": "Ф-я Modbus Mst",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "0x03 - Rd Holding"
+        },
+        {
+          "Value": 1,
+          "Description": "0x04 - Rd Input"
+        }
+      ]
+    },
+    {
+      "Name": "Ф-я Modbus Spy",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "0x03 - Rd Holding"
+        },
+        {
+          "Value": 1,
+          "Description": "0x04 - Rd Input"
+        },
+        {
+          "Value": 2,
+          "Description": "0x06 - Wr Single"
+        },
+        {
+          "Value": 3,
+          "Description": "0x10 - Wr Miltiple"
+        }
+      ]
+    },
+    {
+      "Name": "ПорядокБайт",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "Не менять"
+        },
+        {
+          "Value": 1,
+          "Description": "Инверс байтов"
+        },
+        {
+          "Value": 2,
+          "Description": "Инверс рег"
+        },
+        {
+          "Value": 3,
+          "Description": "Инверс байт и рег"
+        }
+      ]
+    },
+    {
+      "Name": "Вкл/Откл",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "Откл"
+        },
+        {
+          "Value": 1,
+          "Description": "Вкл"
+        }
+      ]
+    },
+    {
+      "Name": "Цвет",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "Зеленый"
+        },
+        {
+          "Value": 1,
+          "Description": "Красный"
+        },
+        {
+          "Value": 2,
+          "Description": "Желтый"
+        }
+      ]
+    },
+    {
+      "Name": "ЧислоНулей",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "\"0\""
+        },
+        {
+          "Value": 1,
+          "Description": "\"1\""
+        },
+        {
+          "Value": 2,
+          "Description": "\"2\""
+        },
+        {
+          "Value": 3,
+          "Description": "\"3\""
+        }
+      ]
+    },
+    {
+      "Name": "РежОтображ",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "Статика"
+        },
+        {
+          "Value": 1,
+          "Description": "БегСтрока"
+        },
+        {
+          "Value": 2,
+          "Description": "ЧислБегСтрока"
+        }
+      ]
+    },
+    {
+      "Name": "ТипПеременной",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "INT"
+        },
+        {
+          "Value": 1,
+          "Description": "UINT"
+        },
+        {
+          "Value": 2,
+          "Description": "DINT"
+        },
+        {
+          "Value": 3,
+          "Description": "UDINT"
+        },
+        {
+          "Value": 4,
+          "Description": "REAL"
+        },
+        {
+          "Value": 5,
+          "Description": "STRING"
+        },
+        {
+          "Value": 6,
+          "Description": "Портрет"
+        },
+        {
+          "Value": 7,
+          "Description": "Время"
+        }
+      ]
+    },
+    {
+      "Name": "Сохранение",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "НетКоманды"
+        },
+        {
+          "Value": 1,
+          "Description": "Сохранить"
+        }
+      ]
+    },
+    {
+      "Name": "ПоложДесТочки",
+      "Items": [
+        {
+          "Value": 0,
+          "Description": "0000"
+        },
+        {
+          "Value": 1,
+          "Description": "000,0"
+        },
+        {
+          "Value": 2,
+          "Description": "00,00"
+        },
+        {
+          "Value": 3,
+          "Description": "0,000"
+        }
+      ]
+    }
+  ]
+}
