@@ -213,7 +213,7 @@
     },
     {
       "Num": 13,
-      "Name": "Тип входа IN1P",
+      "Name": "Тип входа IN1P или дифф P+N",
       "Mode": "RW",
       "Adr": "0x1400",
       "Type": "list",
@@ -221,7 +221,7 @@
       "Scale": "0",
       "Min": "0",
       "Max": "65535",
-      "Info": "вход Р или дифф P+N",
+      "Info": "",
       "ListName": "Тип датчика",
       "IsHeader": false,
       "IsNotHeader": true
@@ -236,7 +236,7 @@
       "Scale": "0",
       "Min": "0",
       "Max": "65535",
-      "Info": "вход N (если Р настроен как дифф, то N игнорируется)",
+      "Info": "",
       "ListName": "Тип датчика",
       "IsHeader": false,
       "IsNotHeader": true
@@ -341,7 +341,7 @@
       "Scale": "0",
       "Min": "-32768",
       "Max": "32767",
-      "Info": "Приведение к физ. величине тока и напр.",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -356,7 +356,7 @@
       "Scale": "0",
       "Min": "-32768",
       "Max": "32767",
-      "Info": "Приведение к физ. величине тока и напр.",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -371,7 +371,7 @@
       "Scale": "0",
       "Min": "-32768",
       "Max": "32767",
-      "Info": "Приведение к физ. величине тока и напр.",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -386,7 +386,7 @@
       "Scale": "0",
       "Min": "-32768",
       "Max": "32767",
-      "Info": "Приведение к физ. величине тока и напр.",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -431,7 +431,7 @@
       "Scale": "0",
       "Min": "1",
       "Max": "10000",
-      "Info": "Пользовательский резистор делителя",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -446,7 +446,7 @@
       "Scale": "0",
       "Min": "1",
       "Max": "10000",
-      "Info": "Пользовательский резистор делителя",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -461,7 +461,7 @@
       "Scale": "0",
       "Min": "1",
       "Max": "10000",
-      "Info": "Пользовательский резистор делителя",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -476,7 +476,7 @@
       "Scale": "0",
       "Min": "1",
       "Max": "10000",
-      "Info": "Пользовательский резистор делителя",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -498,7 +498,7 @@
     },
     {
       "Num": 31,
-      "Name": "Тип входа IN2P",
+      "Name": "Тип входа IN2P или дифф P+N",
       "Mode": "RW",
       "Adr": "0x2400",
       "Type": "list",
@@ -506,7 +506,7 @@
       "Scale": "0",
       "Min": "0",
       "Max": "65535",
-      "Info": "вход Р или дифф P+N",
+      "Info": "",
       "ListName": "Тип датчика",
       "IsHeader": false,
       "IsNotHeader": true
@@ -521,7 +521,7 @@
       "Scale": "0",
       "Min": "0",
       "Max": "65535",
-      "Info": "вход N (если Р настроен как дифф, то N игнорируется)",
+      "Info": "",
       "ListName": "Тип датчика",
       "IsHeader": false,
       "IsNotHeader": true
@@ -626,7 +626,7 @@
       "Scale": "0",
       "Min": "-32768",
       "Max": "32767",
-      "Info": "Приведение к физ. величине тока и напр.",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -641,7 +641,7 @@
       "Scale": "0",
       "Min": "-32768",
       "Max": "32767",
-      "Info": "Приведение к физ. величине тока и напр.",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -656,7 +656,7 @@
       "Scale": "0",
       "Min": "-32768",
       "Max": "32767",
-      "Info": "Приведение к физ. величине тока и напр.",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -671,7 +671,7 @@
       "Scale": "0",
       "Min": "-32768",
       "Max": "32767",
-      "Info": "Приведение к физ. величине тока и напр.",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -716,7 +716,7 @@
       "Scale": "0",
       "Min": "1",
       "Max": "10000",
-      "Info": "Пользовательский резистор делителя",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -731,7 +731,7 @@
       "Scale": "0",
       "Min": "1",
       "Max": "10000",
-      "Info": "Пользовательский резистор делителя",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -746,7 +746,7 @@
       "Scale": "0",
       "Min": "1",
       "Max": "10000",
-      "Info": "Пользовательский резистор делителя",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -761,7 +761,7 @@
       "Scale": "0",
       "Min": "1",
       "Max": "10000",
-      "Info": "Пользовательский резистор делителя",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -783,7 +783,7 @@
     },
     {
       "Num": 49,
-      "Name": "Тип входа IN3P",
+      "Name": "Тип входа IN3P или дифф P+N",
       "Mode": "RW",
       "Adr": "0x3400",
       "Type": "list",
@@ -791,7 +791,7 @@
       "Scale": "0",
       "Min": "0",
       "Max": "65535",
-      "Info": "вход Р или дифф P+N",
+      "Info": "",
       "ListName": "Тип датчика",
       "IsHeader": false,
       "IsNotHeader": true
@@ -806,7 +806,7 @@
       "Scale": "0",
       "Min": "0",
       "Max": "65535",
-      "Info": "вход N (если Р настроен как дифф, то N игнорируется)",
+      "Info": "",
       "ListName": "Тип датчика",
       "IsHeader": false,
       "IsNotHeader": true
@@ -911,7 +911,7 @@
       "Scale": "0",
       "Min": "-32768",
       "Max": "32767",
-      "Info": "Приведение к физ. величине тока и напр.",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -926,7 +926,7 @@
       "Scale": "0",
       "Min": "-32768",
       "Max": "32767",
-      "Info": "Приведение к физ. величине тока и напр.",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -941,7 +941,7 @@
       "Scale": "0",
       "Min": "-32768",
       "Max": "32767",
-      "Info": "Приведение к физ. величине тока и напр.",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -956,7 +956,7 @@
       "Scale": "0",
       "Min": "-32768",
       "Max": "32767",
-      "Info": "Приведение к физ. величине тока и напр.",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -1001,7 +1001,7 @@
       "Scale": "0",
       "Min": "1",
       "Max": "10000",
-      "Info": "Пользовательский резистор делителя",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -1016,7 +1016,7 @@
       "Scale": "0",
       "Min": "1",
       "Max": "10000",
-      "Info": "Пользовательский резистор делителя",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -1031,7 +1031,7 @@
       "Scale": "0",
       "Min": "1",
       "Max": "10000",
-      "Info": "Пользовательский резистор делителя",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -1046,7 +1046,7 @@
       "Scale": "0",
       "Min": "1",
       "Max": "10000",
-      "Info": "Пользовательский резистор делителя",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -1068,7 +1068,7 @@
     },
     {
       "Num": 67,
-      "Name": "Тип входа IN4P",
+      "Name": "Тип входа IN4P или дифф P+N",
       "Mode": "RW",
       "Adr": "0x4400",
       "Type": "list",
@@ -1076,7 +1076,7 @@
       "Scale": "0",
       "Min": "0",
       "Max": "65535",
-      "Info": "вход Р или дифф P+N",
+      "Info": "",
       "ListName": "Тип датчика",
       "IsHeader": false,
       "IsNotHeader": true
@@ -1091,7 +1091,7 @@
       "Scale": "0",
       "Min": "0",
       "Max": "65535",
-      "Info": "вход N (если Р настроен как дифф, то N игнорируется)",
+      "Info": "",
       "ListName": "Тип датчика",
       "IsHeader": false,
       "IsNotHeader": true
@@ -1196,7 +1196,7 @@
       "Scale": "0",
       "Min": "-32768",
       "Max": "32767",
-      "Info": "Приведение к физ. величине тока и напр.",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -1211,7 +1211,7 @@
       "Scale": "0",
       "Min": "-32768",
       "Max": "32767",
-      "Info": "Приведение к физ. величине тока и напр.",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -1226,7 +1226,7 @@
       "Scale": "0",
       "Min": "-32768",
       "Max": "32767",
-      "Info": "Приведение к физ. величине тока и напр.",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -1241,7 +1241,7 @@
       "Scale": "0",
       "Min": "-32768",
       "Max": "32767",
-      "Info": "Приведение к физ. величине тока и напр.",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -1286,7 +1286,7 @@
       "Scale": "0",
       "Min": "1",
       "Max": "10000",
-      "Info": "Пользовательский резистор делителя",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -1301,7 +1301,7 @@
       "Scale": "0",
       "Min": "1",
       "Max": "10000",
-      "Info": "Пользовательский резистор делителя",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -1316,7 +1316,7 @@
       "Scale": "0",
       "Min": "1",
       "Max": "10000",
-      "Info": "Пользовательский резистор делителя",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -1331,7 +1331,7 @@
       "Scale": "0",
       "Min": "1",
       "Max": "10000",
-      "Info": "Пользовательский резистор делителя",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -1353,7 +1353,7 @@
     },
     {
       "Num": 85,
-      "Name": "Тип входа IN5P",
+      "Name": "Тип входа IN5P или дифф P+N",
       "Mode": "RW",
       "Adr": "0x5400",
       "Type": "list",
@@ -1361,7 +1361,7 @@
       "Scale": "0",
       "Min": "0",
       "Max": "65535",
-      "Info": "вход Р или дифф P+N",
+      "Info": "",
       "ListName": "Тип датчика",
       "IsHeader": false,
       "IsNotHeader": true
@@ -1376,7 +1376,7 @@
       "Scale": "0",
       "Min": "0",
       "Max": "65535",
-      "Info": "вход N (если Р настроен как дифф, то N игнорируется)",
+      "Info": "",
       "ListName": "Тип датчика",
       "IsHeader": false,
       "IsNotHeader": true
@@ -1481,7 +1481,7 @@
       "Scale": "0",
       "Min": "-32768",
       "Max": "32767",
-      "Info": "Приведение к физ. величине тока и напр.",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -1496,7 +1496,7 @@
       "Scale": "0",
       "Min": "-32768",
       "Max": "32767",
-      "Info": "Приведение к физ. величине тока и напр.",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -1511,7 +1511,7 @@
       "Scale": "0",
       "Min": "-32768",
       "Max": "32767",
-      "Info": "Приведение к физ. величине тока и напр.",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -1526,7 +1526,7 @@
       "Scale": "0",
       "Min": "-32768",
       "Max": "32767",
-      "Info": "Приведение к физ. величине тока и напр.",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -1571,7 +1571,7 @@
       "Scale": "0",
       "Min": "1",
       "Max": "10000",
-      "Info": "Пользовательский резистор делителя",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -1586,7 +1586,7 @@
       "Scale": "0",
       "Min": "1",
       "Max": "10000",
-      "Info": "Пользовательский резистор делителя",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -1601,7 +1601,7 @@
       "Scale": "0",
       "Min": "1",
       "Max": "10000",
-      "Info": "Пользовательский резистор делителя",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -1616,7 +1616,7 @@
       "Scale": "0",
       "Min": "1",
       "Max": "10000",
-      "Info": "Пользовательский резистор делителя",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -1638,7 +1638,7 @@
     },
     {
       "Num": 103,
-      "Name": "Тип входа IN6P",
+      "Name": "Тип входа IN6P или дифф P+N",
       "Mode": "RW",
       "Adr": "0x6400",
       "Type": "list",
@@ -1646,7 +1646,7 @@
       "Scale": "0",
       "Min": "0",
       "Max": "65535",
-      "Info": "вход Р или дифф P+N",
+      "Info": "",
       "ListName": "Тип датчика",
       "IsHeader": false,
       "IsNotHeader": true
@@ -1661,7 +1661,7 @@
       "Scale": "0",
       "Min": "0",
       "Max": "65535",
-      "Info": "вход N (если Р настроен как дифф, то N игнорируется)",
+      "Info": "",
       "ListName": "Тип датчика",
       "IsHeader": false,
       "IsNotHeader": true
@@ -1766,7 +1766,7 @@
       "Scale": "0",
       "Min": "-32768",
       "Max": "32767",
-      "Info": "Приведение к физ. величине тока и напр.",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -1781,7 +1781,7 @@
       "Scale": "0",
       "Min": "-32768",
       "Max": "32767",
-      "Info": "Приведение к физ. величине тока и напр.",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -1796,7 +1796,7 @@
       "Scale": "0",
       "Min": "-32768",
       "Max": "32767",
-      "Info": "Приведение к физ. величине тока и напр.",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -1811,7 +1811,7 @@
       "Scale": "0",
       "Min": "-32768",
       "Max": "32767",
-      "Info": "Приведение к физ. величине тока и напр.",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -1856,7 +1856,7 @@
       "Scale": "0",
       "Min": "1",
       "Max": "10000",
-      "Info": "Пользовательский резистор делителя",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -1871,7 +1871,7 @@
       "Scale": "0",
       "Min": "1",
       "Max": "10000",
-      "Info": "Пользовательский резистор делителя",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -1886,7 +1886,7 @@
       "Scale": "0",
       "Min": "1",
       "Max": "10000",
-      "Info": "Пользовательский резистор делителя",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -1901,7 +1901,7 @@
       "Scale": "0",
       "Min": "1",
       "Max": "10000",
-      "Info": "Пользовательский резистор делителя",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -1931,7 +1931,7 @@
       "Scale": "0",
       "Min": "-2147483648",
       "Max": "2147483647",
-      "Info": "вход Р или дифф P+N",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -1946,7 +1946,7 @@
       "Scale": "0",
       "Min": "-2147483648",
       "Max": "2147483647",
-      "Info": "вход N",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -1961,7 +1961,7 @@
       "Scale": "0",
       "Min": "-2147483648",
       "Max": "2147483647",
-      "Info": "вход Р или дифф P+N",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -1976,7 +1976,7 @@
       "Scale": "0",
       "Min": "-2147483648",
       "Max": "2147483647",
-      "Info": "вход N",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -1991,7 +1991,7 @@
       "Scale": "0",
       "Min": "-2147483648",
       "Max": "2147483647",
-      "Info": "вход Р или дифф P+N",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -2006,7 +2006,7 @@
       "Scale": "0",
       "Min": "-2147483648",
       "Max": "2147483647",
-      "Info": "вход N",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -2021,7 +2021,7 @@
       "Scale": "0",
       "Min": "-2147483648",
       "Max": "2147483647",
-      "Info": "вход Р или дифф P+N",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -2036,7 +2036,7 @@
       "Scale": "0",
       "Min": "-2147483648",
       "Max": "2147483647",
-      "Info": "вход N",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -2051,7 +2051,7 @@
       "Scale": "0",
       "Min": "-2147483648",
       "Max": "2147483647",
-      "Info": "вход Р или дифф P+N",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -2066,7 +2066,7 @@
       "Scale": "0",
       "Min": "-2147483648",
       "Max": "2147483647",
-      "Info": "вход N",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -2081,7 +2081,7 @@
       "Scale": "0",
       "Min": "-2147483648",
       "Max": "2147483647",
-      "Info": "вход Р или дифф P+N",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -2096,7 +2096,7 @@
       "Scale": "0",
       "Min": "-2147483648",
       "Max": "2147483647",
-      "Info": "вход N",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -2126,7 +2126,7 @@
       "Scale": "0",
       "Min": "-32768",
       "Max": "32767",
-      "Info": "вход Р или дифф P+N",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -2141,7 +2141,7 @@
       "Scale": "0",
       "Min": "-32768",
       "Max": "32767",
-      "Info": "вход N",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -2156,7 +2156,7 @@
       "Scale": "0",
       "Min": "-32768",
       "Max": "32767",
-      "Info": "вход Р или дифф P+N",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -2171,7 +2171,7 @@
       "Scale": "0",
       "Min": "-32768",
       "Max": "32767",
-      "Info": "вход N",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -2186,7 +2186,7 @@
       "Scale": "0",
       "Min": "-32768",
       "Max": "32767",
-      "Info": "вход Р или дифф P+N",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -2201,7 +2201,7 @@
       "Scale": "0",
       "Min": "-32768",
       "Max": "32767",
-      "Info": "вход N",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -2216,7 +2216,7 @@
       "Scale": "0",
       "Min": "-32768",
       "Max": "32767",
-      "Info": "вход Р или дифф P+N",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -2231,7 +2231,7 @@
       "Scale": "0",
       "Min": "-32768",
       "Max": "32767",
-      "Info": "вход N",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -2246,7 +2246,7 @@
       "Scale": "0",
       "Min": "-32768",
       "Max": "32767",
-      "Info": "вход Р или дифф P+N",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -2261,7 +2261,7 @@
       "Scale": "0",
       "Min": "-32768",
       "Max": "32767",
-      "Info": "вход N",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -2276,7 +2276,7 @@
       "Scale": "0",
       "Min": "-32768",
       "Max": "32767",
-      "Info": "вход Р или дифф P+N",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
@@ -2291,7 +2291,7 @@
       "Scale": "0",
       "Min": "-32768",
       "Max": "32767",
-      "Info": "вход N",
+      "Info": "",
       "ListName": "",
       "IsHeader": false,
       "IsNotHeader": true
